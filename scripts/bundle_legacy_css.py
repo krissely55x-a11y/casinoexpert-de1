@@ -44,6 +44,16 @@ def sanitize_css(text: str) -> str:
     text = strip_editor_css(text)
     text = re.sub(r"^--YOAST[^\n]*$", "", text, flags=re.M)
     text = re.sub(r"/\*#\s*sourceURL=.*?\*/", "", text)
+    # Some archived WordPress block CSS loses the `.screen-reader-text`
+    # selector while editor variables are stripped, leaving this rule on
+    # `:root` and collapsing the entire document to 1x1 px.
+    text = text.replace(
+        ":root{clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;"
+        "padding:0;position:absolute;width:1px;word-wrap:normal!important}",
+        ".screen-reader-text{clip-path:inset(50%);height:1px;margin:-1px;"
+        "overflow:hidden;padding:0;position:absolute;width:1px;"
+        "word-wrap:normal!important}",
+    )
     return text
 
 

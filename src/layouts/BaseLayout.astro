@@ -72,9 +72,18 @@ const ogImageUrl = ogImage
     <link rel="stylesheet" href="/styles/legacy.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
     <style is:global>
+      :root {
+        clip-path: none !important;
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        position: static !important;
+      }
       html, body {
         background: #fff;
         color: #2a2a2a;
+        min-width: 100%;
       }
       .space-box.relative {
         padding-top: 80px;
@@ -90,6 +99,17 @@ const ogImageUrl = ogImage
         opacity: 1 !important;
         visibility: visible !important;
       }
+      .fa,
+      .gmi {
+        font-family: Arial, sans-serif !important;
+      }
+      .fa-angle-down::before { content: "⌄"; }
+      .fa-bars::before { content: "☰"; }
+      .fa-times::before { content: "×"; }
+      .fa-star::before { content: "★"; }
+      .fa-star-o::before { content: "☆"; }
+      .fa-star-half-o::before { content: "★"; }
+      .gmi-zoom-search::before { content: "⌕"; }
       .cky-btn-revisit-wrapper.cky-revisit-bottom-left {
         display: none !important;
         visibility: hidden !important;
