@@ -1,0 +1,130 @@
+/*
+Theme Name: Mercury Child
+Theme URI: https://mercurytheme.com/
+Description: Child theme for Mercury theme
+Author: MercuryTheme.com
+Author URI: https://mercurytheme.com/
+Template: mercury
+Version: 3.9.6
+*/
+@import url("../mercury/style.css");
+
+
+.single-offer .authorbox{
+    margin-left:15px;
+    margin-right:15px;
+    width:auto;
+}
+
+.page .author .space-page-wrapper{
+    padding-top:15px;
+    padding-bottom:0;
+    width:auto;
+}
+.page .author .authorbox{
+    margin-left:15px;
+    margin-right:15px;
+    width:auto;
+}
+.page .content-page .space-page-section-ins{
+    padding-top:0;
+}
+
+.single-organization .authorbox{
+    margin-left:15px;
+    margin-right:15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width:auto;
+}
+.author .space-page-wrapper{
+    padding-top:15px;
+    padding-bottom:0;
+    width:auto;
+}
+.single-unit .authorbox{
+    margin-left:15px;
+    margin-right:15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width:auto;
+}
+.space-page-content-meta {
+    margin-bottom: 15px;
+}
+.single-tischspiele .space-page-section-ins{
+    padding-top:15px;
+}
+.single-offer .space-aces-single-offer-box{
+    margin-bottom: 15px;
+}
+.single-strategien .space-page-section-ins{
+    padding-top:15px;
+}
+.single-post .space-page-section-ins.space-page-wrapper{
+    padding-top: 0;
+}
+.cky-btn-revisit-wrapper.cky-revisit-bottom-left{
+	display:none !important;
+	visibility:hidden;
+}
+
+@media only screen and (max-width:767.9px){
+
+    .space-organizations-3-archive-item-button-ins{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .space-organizations-3-archive-item-button-ins a:first-child{
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 11px;
+        font-weight: 700;
+        font-size: 1em;
+        border-radius: 50px;
+    }
+}
+/** Home page bonus offers shortcode **/
+
+.bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-ins{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgb(233, 233, 233) 17%, rgba(255,255,255,1) 17%);
+
+}   
+.bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-ins .space-offers-archive-item-title{
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+.bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-button a{
+    background-color:#d63031;
+    
+ }   
+
+ .bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-short-desc{
+    font-size: 0.9em;
+    color:#151515;
+    min-height: 50px;
+ }
+
+ .bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-button{
+    margin-top: 10px;
+ }
+
+ @media only screen and (max-width:975px){
+    .bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-ins{
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgb(233, 233, 233) 20%, rgba(255,255,255,1) 20%);
+    
+    }  
+ }
+
+ @media only screen and (max-width:768px){
+    .bonuses-shortcode-updated .space-offers-archive-item.space-dark-style2 .space-offers-archive-item-ins{
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgb(233, 233, 233) 18%, rgba(255,255,255,1) 18%);
+    
+    }  
+ }

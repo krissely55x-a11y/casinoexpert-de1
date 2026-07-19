@@ -1,0 +1,29 @@
+.lightweight-accordion {
+	margin-bottom: 0.4em;
+}
+.lightweight-accordion .lightweight-accordion-title {
+	display: list-item;
+	background: #f1f2f6;
+	padding: 10px 12px 10px 18px;
+	cursor: pointer;
+}
+.lightweight-accordion .lightweight-accordion-body {
+	padding: 10px;
+}
+.lightweight-accordion.bordered .lightweight-accordion-body {
+	border: 2px solid #f1f2f6;
+	border-top: 0;
+}
+.lightweight-accordion details[open] summary ~ * {
+	animation: lwopen .5s ease-in-out;
+}
+.lightweight-accordion .lightweight-accordion-title p, .lightweight-accordion .lightweight-accordion-title span, .lightweight-accordion .lightweight-accordion-title h1, .lightweight-accordion .lightweight-accordion-title h2, .lightweight-accordion .lightweight-accordion-title h3 {
+	display: inline;
+	font-size: 18px;
+	font-family: inherit;
+	font-weight: normal;
+}
+@keyframes lwopen {
+	0%    {opacity: 0;}
+	100%  {opacity: 1;}
+}

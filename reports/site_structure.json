@@ -1,0 +1,2229 @@
+{
+  "total_pages": 328,
+  "total_internal_links": 34132,
+  "sections": {
+    "strategien": {
+      "pages": 81,
+      "in_links": 25269,
+      "rank": 0.6754
+    },
+    "slots": {
+      "pages": 156,
+      "in_links": 3519,
+      "rank": 0.1516
+    },
+    "casinos": {
+      "pages": 42,
+      "in_links": 2518,
+      "rank": 0.0871
+    },
+    "tischspiele": {
+      "pages": 12,
+      "in_links": 921,
+      "rank": 0.0249
+    },
+    "bonus": {
+      "pages": 10,
+      "in_links": 505,
+      "rank": 0.0139
+    },
+    "home": {
+      "pages": 1,
+      "in_links": 328,
+      "rank": 0.0098
+    },
+    "haftungsausschluss": {
+      "pages": 1,
+      "in_links": 328,
+      "rank": 0.0098
+    },
+    "kontakt": {
+      "pages": 1,
+      "in_links": 328,
+      "rank": 0.0098
+    },
+    "ueber-uns": {
+      "pages": 7,
+      "in_links": 46,
+      "rank": 0.0038
+    },
+    "apps": {
+      "pages": 4,
+      "in_links": 92,
+      "rank": 0.0031
+    },
+    "ratgeber": {
+      "pages": 3,
+      "in_links": 71,
+      "rank": 0.0023
+    },
+    "angebote": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0017
+    },
+    "datenschutz": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "echtgeld": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "impressum": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "jackpot": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "live": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "lizenz": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "neu": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "serioes": {
+      "pages": 1,
+      "in_links": 23,
+      "rank": 0.0008
+    },
+    "phenomedia": {
+      "pages": 1,
+      "in_links": 0,
+      "rank": 0.0005
+    }
+  },
+  "top_by_rank": [
+    {
+      "url": "/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 103
+    },
+    {
+      "url": "/casinos/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 169
+    },
+    {
+      "url": "/casinos/casinobuck/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 164
+    },
+    {
+      "url": "/casinos/gioo/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 164
+    },
+    {
+      "url": "/casinos/goodman/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 164
+    },
+    {
+      "url": "/haftungsausschluss/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 103
+    },
+    {
+      "url": "/kontakt/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/blackjack/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 33
+    },
+    {
+      "url": "/strategien/blackjack/1-3-2-6/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 101
+    },
+    {
+      "url": "/strategien/blackjack/grundstrategie/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/blackjack/karten-zaehlen/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 101
+    },
+    {
+      "url": "/strategien/blackjack/oscars-grind/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 101
+    },
+    {
+      "url": "/strategien/roulette/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 101
+    },
+    {
+      "url": "/strategien/roulette/d-alembert/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/dutzend-raster/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 30
+    },
+    {
+      "url": "/strategien/roulette/james-bond/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/kavouras-wette/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/labouchere/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 28
+    },
+    {
+      "url": "/strategien/roulette/oscars-grind/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/parlay/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 26
+    },
+    {
+      "url": "/strategien/roulette/paroli/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/reverse-fibonacci/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 35
+    },
+    {
+      "url": "/strategien/roulette/shotwell/",
+      "rank": 0.00977,
+      "in": 328,
+      "out": 103
+    },
+    {
+      "url": "/strategien/blackjack/fibonacci/",
+      "rank": 0.00943,
+      "in": 326,
+      "out": 101
+    },
+    {
+      "url": "/strategien/blackjack/parlay/",
+      "rank": 0.00913,
+      "in": 325,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/red-and-black-system/",
+      "rank": 0.009,
+      "in": 324,
+      "out": 100
+    },
+    {
+      "url": "/strategien/blackjack/labouchere/",
+      "rank": 0.00886,
+      "in": 324,
+      "out": 103
+    },
+    {
+      "url": "/strategien/blackjack/shuffle-tracking/",
+      "rank": 0.00886,
+      "in": 324,
+      "out": 100
+    },
+    {
+      "url": "/strategien/blackjack/wonging/",
+      "rank": 0.00886,
+      "in": 324,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/progression/",
+      "rank": 0.00886,
+      "in": 324,
+      "out": 100
+    },
+    {
+      "url": "/strategien/roulette/kesselgucken/",
+      "rank": 0.0087,
+      "in": 323,
+      "out": 103
+    },
+    {
+      "url": "/strategien/roulette/tiers-et-tout/",
+      "rank": 0.00843,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/blackjack/side-bets/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/poker/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 101
+    },
+    {
+      "url": "/strategien/poker/bluff/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 40
+    },
+    {
+      "url": "/strategien/poker/loose-aggressive/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/poker/loose-passive/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/poker/positionsspiel/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/poker/tight-aggressive/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 100
+    },
+    {
+      "url": "/strategien/poker/tight-passive/",
+      "rank": 0.00837,
+      "in": 322,
+      "out": 103
+    }
+  ],
+  "top_by_inbound": [
+    {
+      "url": "/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/casinos/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/casinos/casinobuck/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/casinos/gioo/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/casinos/goodman/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/haftungsausschluss/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/kontakt/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/1-3-2-6/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/grundstrategie/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/karten-zaehlen/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/oscars-grind/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/d-alembert/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/dutzend-raster/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/james-bond/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/kavouras-wette/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/labouchere/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/oscars-grind/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/parlay/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/paroli/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/reverse-fibonacci/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/roulette/shotwell/",
+      "in": 328,
+      "rank": 0.00977
+    },
+    {
+      "url": "/strategien/blackjack/fibonacci/",
+      "in": 326,
+      "rank": 0.00943
+    },
+    {
+      "url": "/strategien/blackjack/parlay/",
+      "in": 325,
+      "rank": 0.00913
+    },
+    {
+      "url": "/strategien/blackjack/labouchere/",
+      "in": 324,
+      "rank": 0.00886
+    },
+    {
+      "url": "/strategien/blackjack/shuffle-tracking/",
+      "in": 324,
+      "rank": 0.00886
+    },
+    {
+      "url": "/strategien/blackjack/wonging/",
+      "in": 324,
+      "rank": 0.00886
+    },
+    {
+      "url": "/strategien/roulette/progression/",
+      "in": 324,
+      "rank": 0.00886
+    },
+    {
+      "url": "/strategien/roulette/red-and-black-system/",
+      "in": 324,
+      "rank": 0.009
+    }
+  ],
+  "top_by_outbound": [
+    {
+      "url": "/bonus/",
+      "out": 170
+    },
+    {
+      "url": "/bonus/angebote/",
+      "out": 170
+    },
+    {
+      "url": "/bonus/einzahlungsbonus/",
+      "out": 170
+    },
+    {
+      "url": "/bonus/gutscheine/",
+      "out": 170
+    },
+    {
+      "url": "/bonus/startguthaben/",
+      "out": 170
+    },
+    {
+      "url": "/bonus/willkommensbonus/",
+      "out": 170
+    },
+    {
+      "url": "/casinos/",
+      "out": 169
+    },
+    {
+      "url": "/casinos/crownplay/",
+      "out": 165
+    },
+    {
+      "url": "/casinos/crownplay/bonus/",
+      "out": 165
+    },
+    {
+      "url": "/casinos/casinobuck/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/casinobuck/bonus/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/gioo/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/gioo/bonus/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/goodman/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/goodman/bonus/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/gslot/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/gslot/bonus/",
+      "out": 164
+    },
+    {
+      "url": "/casinos/haz/",
+      "out": 164
+    },
+    {
+      "url": "/bonus/freispiele/",
+      "out": 162
+    },
+    {
+      "url": "/bonus/freispiele/ohne-einzahlung/",
+      "out": 162
+    }
+  ],
+  "tree": {
+    "__url__": "/",
+    "__rank__": 0.009773636266099988,
+    "__in__": 328,
+    "angebote": {
+      "__url__": "/angebote/",
+      "__rank__": 0.0017082529714692587,
+      "__in__": 23
+    },
+    "apps": {
+      "__url__": "/apps/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23,
+      "android": {
+        "__url__": "/apps/android/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "echtgeld": {
+        "__url__": "/apps/echtgeld/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "iphone": {
+        "__url__": "/apps/iphone/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      }
+    },
+    "bonus": {
+      "__url__": "/bonus/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23,
+      "angebote": {
+        "__url__": "/bonus/angebote/",
+        "__rank__": 0.006937226271768727,
+        "__in__": 298
+      },
+      "einzahlungsbonus": {
+        "__url__": "/bonus/einzahlungsbonus/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "freispiele": {
+        "__url__": "/bonus/freispiele/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23,
+        "ohne-einzahlung": {
+          "__url__": "/bonus/freispiele/ohne-einzahlung/",
+          "__rank__": 0.0007784981415669227,
+          "__in__": 23
+        }
+      },
+      "gutscheine": {
+        "__url__": "/bonus/gutscheine/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "ohne-einzahlung": {
+        "__url__": "/bonus/ohne-einzahlung/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "ohne-umsatz": {
+        "__url__": "/bonus/ohne-umsatz/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "startguthaben": {
+        "__url__": "/bonus/startguthaben/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      },
+      "willkommensbonus": {
+        "__url__": "/bonus/willkommensbonus/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      }
+    },
+    "casinos": {
+      "__url__": "/casinos/",
+      "__rank__": 0.009773636266099988,
+      "__in__": 328,
+      "casinobuck": {
+        "__url__": "/casinos/casinobuck/",
+        "__rank__": 0.009773636266099988,
+        "__in__": 328,
+        "bonus": {
+          "__url__": "/casinos/casinobuck/bonus/",
+          "__rank__": 0.0007784981415669227,
+          "__in__": 23
+        }
+      },
+      "crownplay": {
+        "__url__": "/casinos/crownplay/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23,
+        "bonus": {
+          "__url__": "/casinos/crownplay/bonus/",
+          "__rank__": 0.0007784981415669227,
+          "__in__": 23
+        }
+      },
+      "gioo": {
+        "__url__": "/casinos/gioo/",
+        "__rank__": 0.009773636266099988,
+        "__in__": 328,
+        "bonus": {
+          "__url__": "/casinos/gioo/bonus/",
+          "__rank__": 0.0007784981415669227,
+          "__in__": 23
+        }
+      },
+      "goodman": {
+        "__url__": "/casinos/goodman/",
+        "__rank__": 0.009773636266099988,
+        "__in__": 328,
+        "bonus": {
+          "__url__": "/casinos/goodman/bonus/",
+          "__rank__": 0.0007784981415669227,
+          "__in__": 23
+        }
+      },
+      "gslot": {
+        "__url__": "/casinos/gslot/",
+        "__rank__": 0.003554576161089461,
+        "__in__": 37,
+        "bonus": {
+          "__url__": "/casinos/gslot/bonus/",
+          "__rank__": 0.0005448172106723656,
+          "__in__": 11
+        }
+      },
+      "haz": {
+        "__url__": "/casinos/haz/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23,
+        "bonus": {
+          "__url__": "/casinos/haz/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "hejgo": {
+        "__url__": "/casinos/hejgo/",
+        "__rank__": 0.0035755087561514447,
+        "__in__": 35,
+        "bonus": {
+          "__url__": "/casinos/hejgo/bonus/",
+          "__rank__": 0.000528014037274047,
+          "__in__": 10
+        }
+      },
+      "hitnspin": {
+        "__url__": "/casinos/hitnspin/",
+        "__rank__": 0.0005188866268655164,
+        "__in__": 4,
+        "bonus": {
+          "__url__": "/casinos/hitnspin/bonus/",
+          "__rank__": 0.000519851087439702,
+          "__in__": 8
+        }
+      },
+      "horus": {
+        "__url__": "/casinos/horus/",
+        "__rank__": 0.00818816217006726,
+        "__in__": 321,
+        "bonus": {
+          "__url__": "/casinos/horus/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "kryptosino": {
+        "__url__": "/casinos/kryptosino/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23,
+        "bonus": {
+          "__url__": "/casinos/kryptosino/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "levelup": {
+        "__url__": "/casinos/levelup/",
+        "__rank__": 0.0007851054647854137,
+        "__in__": 24,
+        "bonus": {
+          "__url__": "/casinos/levelup/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "luckyelf": {
+        "__url__": "/casinos/luckyelf/",
+        "__rank__": 0.000514817482688275,
+        "__in__": 3,
+        "bonus": {
+          "__url__": "/casinos/luckyelf/bonus/",
+          "__rank__": 0.0005280898484899193,
+          "__in__": 10
+        }
+      },
+      "myempire": {
+        "__url__": "/casinos/myempire/",
+        "__rank__": 0.0005188866268655164,
+        "__in__": 4,
+        "bonus": {
+          "__url__": "/casinos/myempire/bonus/",
+          "__rank__": 0.000519851087439702,
+          "__in__": 8
+        }
+      },
+      "rant": {
+        "__url__": "/casinos/rant/",
+        "__rank__": 0.0005107729999908956,
+        "__in__": 2,
+        "bonus": {
+          "__url__": "/casinos/rant/bonus/",
+          "__rank__": 0.0005158066047423226,
+          "__in__": 7
+        }
+      },
+      "rebellion": {
+        "__url__": "/casinos/rebellion/",
+        "__rank__": 0.0005188866268655164,
+        "__in__": 4,
+        "bonus": {
+          "__url__": "/casinos/rebellion/bonus/",
+          "__rank__": 0.000519851087439702,
+          "__in__": 8
+        }
+      },
+      "rockwin-io": {
+        "__url__": "/casinos/rockwin-io/",
+        "__rank__": 0.0035202535339045487,
+        "__in__": 36,
+        "bonus": {
+          "__url__": "/casinos/rockwin-io/bonus/",
+          "__rank__": 0.0005308617509192025,
+          "__in__": 11
+        }
+      },
+      "scream": {
+        "__url__": "/casinos/scream/",
+        "__rank__": 0.00046119844623308945,
+        "__in__": 1
+      },
+      "skycrown": {
+        "__url__": "/casinos/skycrown/",
+        "__rank__": 0.0008373469457474981,
+        "__in__": 25,
+        "bonus": {
+          "__url__": "/casinos/skycrown/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "vegaz": {
+        "__url__": "/casinos/vegaz/",
+        "__rank__": 0.00818816217006726,
+        "__in__": 321,
+        "bonus": {
+          "__url__": "/casinos/vegaz/bonus/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "vinyl": {
+        "__url__": "/casinos/vinyl/",
+        "__rank__": 0.0005107729999908956,
+        "__in__": 2,
+        "bonus": {
+          "__url__": "/casinos/vinyl/bonus/",
+          "__rank__": 0.0005158066047423226,
+          "__in__": 7
+        }
+      },
+      "wildcoins": {
+        "__url__": "/casinos/wildcoins/",
+        "__rank__": 0.00046119844623308945,
+        "__in__": 1,
+        "bonus": {
+          "__url__": "/casinos/wildcoins/bonus/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        }
+      }
+    },
+    "datenschutz": {
+      "__url__": "/datenschutz/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "echtgeld": {
+      "__url__": "/echtgeld/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "haftungsausschluss": {
+      "__url__": "/haftungsausschluss/",
+      "__rank__": 0.009773636266099988,
+      "__in__": 328
+    },
+    "impressum": {
+      "__url__": "/impressum/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "jackpot": {
+      "__url__": "/jackpot/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "kontakt": {
+      "__url__": "/kontakt/",
+      "__rank__": 0.009773636266099988,
+      "__in__": 328
+    },
+    "live": {
+      "__url__": "/live/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "lizenz": {
+      "__url__": "/lizenz/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "neu": {
+      "__url__": "/neu/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "phenomedia": {
+      "__url__": "/phenomedia/",
+      "__rank__": 0.0004573170731707318,
+      "__in__": 0
+    },
+    "ratgeber": {
+      "__url__": "/ratgeber/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23,
+      "rtp": {
+        "__url__": "/ratgeber/rtp/",
+        "__rank__": 0.0007851054647854137,
+        "__in__": 24
+      },
+      "volatilitaet": {
+        "__url__": "/ratgeber/volatilitaet/",
+        "__rank__": 0.0007851054647854137,
+        "__in__": 24
+      }
+    },
+    "serioes": {
+      "__url__": "/serioes/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23
+    },
+    "slots": {
+      "__url__": "/slots/",
+      "__rank__": 0.0009280646388690539,
+      "__in__": 25,
+      "gamomat": {
+        "__url__": "/slots/gamomat/",
+        "__rank__": 0.0007849132983321372,
+        "__in__": 24,
+        "super-duper-moorhuhn": {
+          "__url__": "/slots/gamomat/super-duper-moorhuhn/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        }
+      },
+      "netent": {
+        "__url__": "/slots/netent/",
+        "__rank__": 0.00818816217006726,
+        "__in__": 321,
+        "aloha-christmas": {
+          "__url__": "/slots/netent/aloha-christmas/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "aloha-cluster-pays": {
+          "__url__": "/slots/netent/aloha-cluster-pays/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "arabian-nights": {
+          "__url__": "/slots/netent/arabian-nights/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "arcane-reel-chaos": {
+          "__url__": "/slots/netent/arcane-reel-chaos/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "archangels-salvation": {
+          "__url__": "/slots/netent/archangels-salvation/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "asgardian-stones": {
+          "__url__": "/slots/netent/asgardian-stones/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "bee-hive-bonanza": {
+          "__url__": "/slots/netent/bee-hive-bonanza/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "berryburst": {
+          "__url__": "/slots/netent/berryburst/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "blood-suckers-2": {
+          "__url__": "/slots/netent/blood-suckers-2/",
+          "__rank__": 0.00047527862573313136,
+          "__in__": 2
+        },
+        "blood-suckers": {
+          "__url__": "/slots/netent/blood-suckers/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "busters-bones": {
+          "__url__": "/slots/netent/busters-bones/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "butterfly-staxx-2": {
+          "__url__": "/slots/netent/butterfly-staxx-2/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "butterfly-staxx": {
+          "__url__": "/slots/netent/butterfly-staxx/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "cash-noire": {
+          "__url__": "/slots/netent/cash-noire/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "cash-o-matic": {
+          "__url__": "/slots/netent/cash-o-matic/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "codex-of-fortune": {
+          "__url__": "/slots/netent/codex-of-fortune/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "coins-of-egypt": {
+          "__url__": "/slots/netent/coins-of-egypt/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "conan": {
+          "__url__": "/slots/netent/conan/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "cornelius": {
+          "__url__": "/slots/netent/cornelius/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "cupcakes": {
+          "__url__": "/slots/netent/cupcakes/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dark-king-forbidden-riches": {
+          "__url__": "/slots/netent/dark-king-forbidden-riches/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dazzle-me-megaways": {
+          "__url__": "/slots/netent/dazzle-me-megaways/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dazzle-me": {
+          "__url__": "/slots/netent/dazzle-me/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dead-or-alive-2-feature-buy": {
+          "__url__": "/slots/netent/dead-or-alive-2-feature-buy/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dead-or-alive-2": {
+          "__url__": "/slots/netent/dead-or-alive-2/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        },
+        "dead-or-alive": {
+          "__url__": "/slots/netent/dead-or-alive/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        },
+        "disco-danny": {
+          "__url__": "/slots/netent/disco-danny/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "divine-fortune-megaways": {
+          "__url__": "/slots/netent/divine-fortune-megaways/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "divine-fortune": {
+          "__url__": "/slots/netent/divine-fortune/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        },
+        "double-stacks": {
+          "__url__": "/slots/netent/double-stacks/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "dracula": {
+          "__url__": "/slots/netent/dracula/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "drive-multiplier-mayhem": {
+          "__url__": "/slots/netent/drive-multiplier-mayhem/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "druids-dream": {
+          "__url__": "/slots/netent/druids-dream/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "east-sea-dragon-king": {
+          "__url__": "/slots/netent/east-sea-dragon-king/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "eggomatic": {
+          "__url__": "/slots/netent/eggomatic/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "elements-the-awakening": {
+          "__url__": "/slots/netent/elements-the-awakening/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "excalibur": {
+          "__url__": "/slots/netent/excalibur/",
+          "__rank__": 0.0007851054647854137,
+          "__in__": 24
+        },
+        "fairytale-legends-mirror-mirror": {
+          "__url__": "/slots/netent/fairytale-legends-mirror-mirror/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "finn-and-the-swirly-spin": {
+          "__url__": "/slots/netent/finn-and-the-swirly-spin/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "finns-golden-tavern": {
+          "__url__": "/slots/netent/finns-golden-tavern/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "flowers": {
+          "__url__": "/slots/netent/flowers/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "football-champions-cup": {
+          "__url__": "/slots/netent/football-champions-cup/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "fruit-case": {
+          "__url__": "/slots/netent/fruit-case/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "fruit-shop-christmas": {
+          "__url__": "/slots/netent/fruit-shop-christmas/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "fruit-shop-megaways": {
+          "__url__": "/slots/netent/fruit-shop-megaways/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "fruit-shop": {
+          "__url__": "/slots/netent/fruit-shop/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "fruit-spin": {
+          "__url__": "/slots/netent/fruit-spin/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "funk-master": {
+          "__url__": "/slots/netent/funk-master/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "ghost-pirates": {
+          "__url__": "/slots/netent/ghost-pirates/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "golden-grimoire": {
+          "__url__": "/slots/netent/golden-grimoire/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "gonzos-gold": {
+          "__url__": "/slots/netent/gonzos-gold/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "gonzos-quest": {
+          "__url__": "/slots/netent/gonzos-quest/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "gorilla-kingdom": {
+          "__url__": "/slots/netent/gorilla-kingdom/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "grand-spinn-superpot": {
+          "__url__": "/slots/netent/grand-spinn-superpot/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "grand-spinn": {
+          "__url__": "/slots/netent/grand-spinn/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "guns-n-roses": {
+          "__url__": "/slots/netent/guns-n-roses/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "hall-of-gods": {
+          "__url__": "/slots/netent/hall-of-gods/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "halloween-jack": {
+          "__url__": "/slots/netent/halloween-jack/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "hells-kitchen": {
+          "__url__": "/slots/netent/hells-kitchen/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "hotline-2": {
+          "__url__": "/slots/netent/hotline-2/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "hotline": {
+          "__url__": "/slots/netent/hotline/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "imperial-riches": {
+          "__url__": "/slots/netent/imperial-riches/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "irish-pot-luck": {
+          "__url__": "/slots/netent/irish-pot-luck/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jack-and-the-beanstalk": {
+          "__url__": "/slots/netent/jack-and-the-beanstalk/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jack-hammer-2": {
+          "__url__": "/slots/netent/jack-hammer-2/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jack-hammer": {
+          "__url__": "/slots/netent/jack-hammer/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jackpot-6000": {
+          "__url__": "/slots/netent/jackpot-6000/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jimi-hendrix": {
+          "__url__": "/slots/netent/jimi-hendrix/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jingle-spin": {
+          "__url__": "/slots/netent/jingle-spin/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "joker-pro": {
+          "__url__": "/slots/netent/joker-pro/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jumanji": {
+          "__url__": "/slots/netent/jumanji/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "jungle-spirit-call-of-the-wild": {
+          "__url__": "/slots/netent/jungle-spirit-call-of-the-wild/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "king-of-3-kingdoms": {
+          "__url__": "/slots/netent/king-of-3-kingdoms/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "king-of-slots": {
+          "__url__": "/slots/netent/king-of-slots/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "knight-rider-video-slot": {
+          "__url__": "/slots/netent/knight-rider-video-slot/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "koi-princess": {
+          "__url__": "/slots/netent/koi-princess/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "let-it-burn": {
+          "__url__": "/slots/netent/let-it-burn/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "lights": {
+          "__url__": "/slots/netent/lights/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "long-pao": {
+          "__url__": "/slots/netent/long-pao/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "lost-relics": {
+          "__url__": "/slots/netent/lost-relics/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "mega-fortune-dreams": {
+          "__url__": "/slots/netent/mega-fortune-dreams/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "mega-fortune": {
+          "__url__": "/slots/netent/mega-fortune/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "mega-joker": {
+          "__url__": "/slots/netent/mega-joker/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "mercy-of-the-gods": {
+          "__url__": "/slots/netent/mercy-of-the-gods/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "milkshake-xxxtreme": {
+          "__url__": "/slots/netent/milkshake-xxxtreme/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "motorhead": {
+          "__url__": "/slots/netent/motorhead/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "mythic-maiden": {
+          "__url__": "/slots/netent/mythic-maiden/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "narcos": {
+          "__url__": "/slots/netent/narcos/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "neon-staxx": {
+          "__url__": "/slots/netent/neon-staxx/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "oceans-treasure": {
+          "__url__": "/slots/netent/oceans-treasure/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "ozzy-osbourne": {
+          "__url__": "/slots/netent/ozzy-osbourne/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "parthenon-quest-for-immortality": {
+          "__url__": "/slots/netent/parthenon-quest-for-immortality/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "piggy-riches": {
+          "__url__": "/slots/netent/piggy-riches/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "pyramid": {
+          "__url__": "/slots/netent/pyramid/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "rage-of-the-seas": {
+          "__url__": "/slots/netent/rage-of-the-seas/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "reef-raider": {
+          "__url__": "/slots/netent/reef-raider/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "reel-rush-2": {
+          "__url__": "/slots/netent/reel-rush-2/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "reel-rush": {
+          "__url__": "/slots/netent/reel-rush/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "riches-of-midgard-land-and-expand": {
+          "__url__": "/slots/netent/riches-of-midgard-land-and-expand/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "rise-of-maya": {
+          "__url__": "/slots/netent/rise-of-maya/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "robin-hood-shifting-riches": {
+          "__url__": "/slots/netent/robin-hood-shifting-riches/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "rome-the-golden-age": {
+          "__url__": "/slots/netent/rome-the-golden-age/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "santa-vs-rudolf": {
+          "__url__": "/slots/netent/santa-vs-rudolf/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "scruffy-duck": {
+          "__url__": "/slots/netent/scruffy-duck/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "scudamores-super-stakes": {
+          "__url__": "/slots/netent/scudamores-super-stakes/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "secret-of-the-stones": {
+          "__url__": "/slots/netent/secret-of-the-stones/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "secrets-of-atlantis": {
+          "__url__": "/slots/netent/secrets-of-atlantis/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "secrets-of-christmas": {
+          "__url__": "/slots/netent/secrets-of-christmas/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "serengeti-kings": {
+          "__url__": "/slots/netent/serengeti-kings/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "shangri-la": {
+          "__url__": "/slots/netent/shangri-la/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "silverback-gold": {
+          "__url__": "/slots/netent/silverback-gold/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "space-wars-2-powerpoints": {
+          "__url__": "/slots/netent/space-wars-2-powerpoints/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "space-wars": {
+          "__url__": "/slots/netent/space-wars/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "spinata-grande": {
+          "__url__": "/slots/netent/spinata-grande/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "spinsane": {
+          "__url__": "/slots/netent/spinsane/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "starburst-xxxtreme": {
+          "__url__": "/slots/netent/starburst-xxxtreme/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "starburst": {
+          "__url__": "/slots/netent/starburst/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "steam-tower": {
+          "__url__": "/slots/netent/steam-tower/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "stickers": {
+          "__url__": "/slots/netent/stickers/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "street-fighter-2-the-world-warrior": {
+          "__url__": "/slots/netent/street-fighter-2-the-world-warrior/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "strolling-staxx": {
+          "__url__": "/slots/netent/strolling-staxx/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "super-lucky-frog": {
+          "__url__": "/slots/netent/super-lucky-frog/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "super-striker": {
+          "__url__": "/slots/netent/super-striker/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "superstars": {
+          "__url__": "/slots/netent/superstars/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "sweety-honey-fruity": {
+          "__url__": "/slots/netent/sweety-honey-fruity/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "temple-of-nudges": {
+          "__url__": "/slots/netent/temple-of-nudges/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "the-creature-from-the-black-lagoon": {
+          "__url__": "/slots/netent/the-creature-from-the-black-lagoon/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "the-invisible-man": {
+          "__url__": "/slots/netent/the-invisible-man/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "the-reel-steal": {
+          "__url__": "/slots/netent/the-reel-steal/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "the-wish-master": {
+          "__url__": "/slots/netent/the-wish-master/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "the-wolfs-bane": {
+          "__url__": "/slots/netent/the-wolfs-bane/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "trollpot-5000": {
+          "__url__": "/slots/netent/trollpot-5000/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "turn-your-fortune": {
+          "__url__": "/slots/netent/turn-your-fortune/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "twin-happiness": {
+          "__url__": "/slots/netent/twin-happiness/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "twin-spin-megaways": {
+          "__url__": "/slots/netent/twin-spin-megaways/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "twin-spin": {
+          "__url__": "/slots/netent/twin-spin/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "vegas-night-life": {
+          "__url__": "/slots/netent/vegas-night-life/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "victorious-max": {
+          "__url__": "/slots/netent/victorious-max/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "victorious": {
+          "__url__": "/slots/netent/victorious/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "vikings": {
+          "__url__": "/slots/netent/vikings/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "warlords": {
+          "__url__": "/slots/netent/warlords/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "whos-the-bride": {
+          "__url__": "/slots/netent/whos-the-bride/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-bazaar": {
+          "__url__": "/slots/netent/wild-bazaar/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-o-tron-3000": {
+          "__url__": "/slots/netent/wild-o-tron-3000/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-rockets": {
+          "__url__": "/slots/netent/wild-rockets/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-turkey": {
+          "__url__": "/slots/netent/wild-turkey/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-water": {
+          "__url__": "/slots/netent/wild-water/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-wild-west": {
+          "__url__": "/slots/netent/wild-wild-west/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wild-worlds": {
+          "__url__": "/slots/netent/wild-worlds/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "willys-hot-chillies": {
+          "__url__": "/slots/netent/willys-hot-chillies/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wings-of-riches": {
+          "__url__": "/slots/netent/wings-of-riches/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        },
+        "wolf-cub": {
+          "__url__": "/slots/netent/wolf-cub/",
+          "__rank__": 0.00046119844623308945,
+          "__in__": 1
+        }
+      }
+    },
+    "strategien": {
+      "__url__": "/strategien/",
+      "__rank__": 0.0009164767655924642,
+      "__in__": 25,
+      "blackjack": {
+        "__url__": "/strategien/blackjack/",
+        "__rank__": 0.009773636266099988,
+        "__in__": 328,
+        "1-3-2-6": {
+          "__url__": "/strategien/blackjack/1-3-2-6/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "d-alembert": {
+          "__url__": "/strategien/blackjack/d-alembert/",
+          "__rank__": 0.0013678653105693472,
+          "__in__": 29
+        },
+        "fibonacci": {
+          "__url__": "/strategien/blackjack/fibonacci/",
+          "__rank__": 0.009428662641233954,
+          "__in__": 326
+        },
+        "grundstrategie": {
+          "__url__": "/strategien/blackjack/grundstrategie/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "karten-zaehlen": {
+          "__url__": "/strategien/blackjack/karten-zaehlen/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "labouchere": {
+          "__url__": "/strategien/blackjack/labouchere/",
+          "__rank__": 0.008855043274664038,
+          "__in__": 324
+        },
+        "oscars-grind": {
+          "__url__": "/strategien/blackjack/oscars-grind/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "parlay": {
+          "__url__": "/strategien/blackjack/parlay/",
+          "__rank__": 0.009131962968870203,
+          "__in__": 325
+        },
+        "shuffle-tracking": {
+          "__url__": "/strategien/blackjack/shuffle-tracking/",
+          "__rank__": 0.008855043274664038,
+          "__in__": 324
+        },
+        "side-bets": {
+          "__url__": "/strategien/blackjack/side-bets/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "wonging": {
+          "__url__": "/strategien/blackjack/wonging/",
+          "__rank__": 0.008855043274664038,
+          "__in__": 324
+        }
+      },
+      "poker": {
+        "__url__": "/strategien/poker/",
+        "__rank__": 0.008365938360221977,
+        "__in__": 322,
+        "3-bet": {
+          "__url__": "/strategien/poker/3-bet/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "bankroll-management": {
+          "__url__": "/strategien/poker/bankroll-management/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "blocker-bet": {
+          "__url__": "/strategien/poker/blocker-bet/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "bluff": {
+          "__url__": "/strategien/poker/bluff/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "check-raise": {
+          "__url__": "/strategien/poker/check-raise/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "continuation-betting": {
+          "__url__": "/strategien/poker/continuation-betting/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "donk-bet": {
+          "__url__": "/strategien/poker/donk-bet/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "double-barrel-bluff": {
+          "__url__": "/strategien/poker/double-barrel-bluff/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "floating": {
+          "__url__": "/strategien/poker/floating/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "hand-reading": {
+          "__url__": "/strategien/poker/hand-reading/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "isolating": {
+          "__url__": "/strategien/poker/isolating/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "loose-aggressive": {
+          "__url__": "/strategien/poker/loose-aggressive/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "loose-passive": {
+          "__url__": "/strategien/poker/loose-passive/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "overbet": {
+          "__url__": "/strategien/poker/overbet/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "polarisiert-linear": {
+          "__url__": "/strategien/poker/polarisiert-linear/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "positionsspiel": {
+          "__url__": "/strategien/poker/positionsspiel/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "pot-control": {
+          "__url__": "/strategien/poker/pot-control/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "pot-odds": {
+          "__url__": "/strategien/poker/pot-odds/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "probe-bet": {
+          "__url__": "/strategien/poker/probe-bet/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "range-merging": {
+          "__url__": "/strategien/poker/range-merging/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "reverse-implied-odds": {
+          "__url__": "/strategien/poker/reverse-implied-odds/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "slow-playing": {
+          "__url__": "/strategien/poker/slow-playing/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "squeeze-play": {
+          "__url__": "/strategien/poker/squeeze-play/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "stealing-blinds": {
+          "__url__": "/strategien/poker/stealing-blinds/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "table-image-manipulation": {
+          "__url__": "/strategien/poker/table-image-manipulation/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "thin-value-betting": {
+          "__url__": "/strategien/poker/thin-value-betting/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "tight-aggressive": {
+          "__url__": "/strategien/poker/tight-aggressive/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "tight-passive": {
+          "__url__": "/strategien/poker/tight-passive/",
+          "__rank__": 0.008365938360221977,
+          "__in__": 322
+        },
+        "triple-barrel-bluff": {
+          "__url__": "/strategien/poker/triple-barrel-bluff/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        }
+      },
+      "roulette": {
+        "__url__": "/strategien/roulette/",
+        "__rank__": 0.009773636266099988,
+        "__in__": 328,
+        "1-3-2-6-system": {
+          "__url__": "/strategien/roulette/1-3-2-6-system/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "150-euro-system": {
+          "__url__": "/strategien/roulette/150-euro-system/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "24-8": {
+          "__url__": "/strategien/roulette/24-8/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "4567-strategie": {
+          "__url__": "/strategien/roulette/4567-strategie/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "64-prozent": {
+          "__url__": "/strategien/roulette/64-prozent/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "666-system": {
+          "__url__": "/strategien/roulette/666-system/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "angelika": {
+          "__url__": "/strategien/roulette/angelika/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "contra-d-alembert": {
+          "__url__": "/strategien/roulette/contra-d-alembert/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "d-alembert": {
+          "__url__": "/strategien/roulette/d-alembert/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "double-street-quad": {
+          "__url__": "/strategien/roulette/double-street-quad/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "dutzend-raster": {
+          "__url__": "/strategien/roulette/dutzend-raster/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "fischer": {
+          "__url__": "/strategien/roulette/fischer/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "fitzroy": {
+          "__url__": "/strategien/roulette/fitzroy/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "flat-betting": {
+          "__url__": "/strategien/roulette/flat-betting/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "guetting-progression": {
+          "__url__": "/strategien/roulette/guetting-progression/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "hollaendisches-system": {
+          "__url__": "/strategien/roulette/hollaendisches-system/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "james-bond": {
+          "__url__": "/strategien/roulette/james-bond/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "kavouras-wette": {
+          "__url__": "/strategien/roulette/kavouras-wette/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "kesselgucken": {
+          "__url__": "/strategien/roulette/kesselgucken/",
+          "__rank__": 0.008702441602164426,
+          "__in__": 323
+        },
+        "labouchere": {
+          "__url__": "/strategien/roulette/labouchere/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "martingale": {
+          "__url__": "/strategien/roulette/martingale/",
+          "__rank__": 0.0012095186224039816,
+          "__in__": 30
+        },
+        "masse-egale": {
+          "__url__": "/strategien/roulette/masse-egale/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "montante-americaine": {
+          "__url__": "/strategien/roulette/montante-americaine/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "montante-hollandaise": {
+          "__url__": "/strategien/roulette/montante-hollandaise/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "nugget-system": {
+          "__url__": "/strategien/roulette/nugget-system/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "orphelins": {
+          "__url__": "/strategien/roulette/orphelins/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "oscars-grind": {
+          "__url__": "/strategien/roulette/oscars-grind/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "parlay": {
+          "__url__": "/strategien/roulette/parlay/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "paroli": {
+          "__url__": "/strategien/roulette/paroli/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "progression": {
+          "__url__": "/strategien/roulette/progression/",
+          "__rank__": 0.008855043274664038,
+          "__in__": 324
+        },
+        "red-and-black-system": {
+          "__url__": "/strategien/roulette/red-and-black-system/",
+          "__rank__": 0.008999141274528177,
+          "__in__": 324
+        },
+        "reverse-fibonacci": {
+          "__url__": "/strategien/roulette/reverse-fibonacci/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "romanowsky": {
+          "__url__": "/strategien/roulette/romanowsky/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "shotwell": {
+          "__url__": "/strategien/roulette/shotwell/",
+          "__rank__": 0.009773636266099988,
+          "__in__": 328
+        },
+        "tiers-et-tout": {
+          "__url__": "/strategien/roulette/tiers-et-tout/",
+          "__rank__": 0.008425521907958259,
+          "__in__": 322
+        },
+        "voisins-du-zero": {
+          "__url__": "/strategien/roulette/voisins-du-zero/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        },
+        "whittaker-progression": {
+          "__url__": "/strategien/roulette/whittaker-progression/",
+          "__rank__": 0.00818816217006726,
+          "__in__": 321
+        }
+      }
+    },
+    "tischspiele": {
+      "__url__": "/tischspiele/",
+      "__rank__": 0.00818816217006726,
+      "__in__": 321,
+      "baccarat": {
+        "__url__": "/tischspiele/baccarat/",
+        "__rank__": 0.0008532511804158782,
+        "__in__": 25
+      },
+      "blackjack": {
+        "__url__": "/tischspiele/blackjack/",
+        "__rank__": 0.0008532511804158782,
+        "__in__": 25
+      },
+      "roulette": {
+        "__url__": "/tischspiele/roulette/",
+        "__rank__": 0.00818816217006726,
+        "__in__": 321,
+        "101-roulette": {
+          "__url__": "/tischspiele/roulette/101-roulette/",
+          "__rank__": 0.0008049844596012679,
+          "__in__": 27
+        },
+        "amerikanisch": {
+          "__url__": "/tischspiele/roulette/amerikanisch/",
+          "__rank__": 0.0008854834290934308,
+          "__in__": 30
+        },
+        "diamond-bet": {
+          "__url__": "/tischspiele/roulette/diamond-bet/",
+          "__rank__": 0.0008057778198829888,
+          "__in__": 27
+        },
+        "double-ball": {
+          "__url__": "/tischspiele/roulette/double-ball/",
+          "__rank__": 0.0008064403303812339,
+          "__in__": 27
+        },
+        "europaeisch": {
+          "__url__": "/tischspiele/roulette/europaeisch/",
+          "__rank__": 0.0008782463049133402,
+          "__in__": 29
+        },
+        "franzoesisch": {
+          "__url__": "/tischspiele/roulette/franzoesisch/",
+          "__rank__": 0.0008791638534284956,
+          "__in__": 29
+        },
+        "mini-roulette": {
+          "__url__": "/tischspiele/roulette/mini-roulette/",
+          "__rank__": 0.0008868660374521986,
+          "__in__": 30
+        },
+        "multi-wheel-roulette": {
+          "__url__": "/tischspiele/roulette/multi-wheel-roulette/",
+          "__rank__": 0.0008868660374521986,
+          "__in__": 30
+        }
+      }
+    },
+    "ueber-uns": {
+      "__url__": "/ueber-uns/",
+      "__rank__": 0.0007784981415669227,
+      "__in__": 23,
+      "admin": {
+        "__url__": "/ueber-uns/admin/",
+        "__rank__": 0.0004573170731707318,
+        "__in__": 0
+      },
+      "juergen": {
+        "__url__": "/ueber-uns/juergen/",
+        "__rank__": 0.0004573170731707318,
+        "__in__": 0,
+        "page": {
+          "10": {
+            "__url__": "/ueber-uns/juergen/page/10/",
+            "__rank__": 0.0004573170731707318,
+            "__in__": 0
+          },
+          "2": {
+            "__url__": "/ueber-uns/juergen/page/2/",
+            "__rank__": 0.0004573170731707318,
+            "__in__": 0
+          },
+          "9": {
+            "__url__": "/ueber-uns/juergen/page/9/",
+            "__rank__": 0.0004573170731707318,
+            "__in__": 0
+          }
+        }
+      },
+      "tobias": {
+        "__url__": "/ueber-uns/tobias/",
+        "__rank__": 0.0007784981415669227,
+        "__in__": 23
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import bodyHtml from './_body.html?raw';
+
+const meta = {
+  title: "Mathias Weisz, Autor von OnlineCasinoExperte",
+  description: "Mathias Weisz ist Teil unseres Autoren-Expertenteams bei OnlineCasinoExperte.org. Alle Beiträge von Mathias Weisz",
+  canonical: "/ueber-uns/admin/",
+  ogLocale: "de_AT",
+  ogType: "profile",
+  ogTitle: "Mathias Weisz, Autor von OnlineCasinoExperte",
+  ogDescription: "Mathias Weisz ist Teil unseres Autoren-Expertenteams bei OnlineCasinoExperte.org. Alle Beiträge von Mathias Weisz",
+  ogUrl: "",
+  ogImage: "",
+  twitterCard: "summary_large_image",
+  jsonLd: "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"../../index.html\",\"url\":\"https://onlinecasinoexperte.org/\",\"name\":\"OnlineCasinoExperte.org\",\"description\":\"Dein Experte für Online Casinos\",\"publisher\":{\"@id\":\"../../index.html\"},\"alternateName\":\"OnlineCasinoExperte\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"../../index.html\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"de-AT\"},{\"@type\":\"Organization\",\"@id\":\"../../index.html\",\"name\":\"OnlineCasinoExperte.org\",\"alternateName\":\"OnlineCasinoExperte\",\"url\":\"https://onlinecasinoexperte.org/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"de-AT\",\"@id\":\"../../index.html\",\"url\":\"../../wp-content/uploads/2023/07/OnlineCasinoExperte-Logo-.png\",\"contentUrl\":\"../../wp-content/uploads/2023/07/OnlineCasinoExperte-Logo-.png\",\"width\":400,\"height\":66,\"caption\":\"OnlineCasinoExperte.org\"},\"image\":{\"@id\":\"../../index.html\"},\"sameAs\":[\"https://x.com/CasinoExperte\"]}]}",
+  bodyClass: "archive author author-admin author-1 wp-custom-logo groovy_menu_2-6-3",
+};
+---
+
+<BaseLayout {...meta}>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

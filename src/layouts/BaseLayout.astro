@@ -1,0 +1,90 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PostFooter from '../components/PostFooter.astro';
+import SiteScripts from '../components/SiteScripts.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogLocale?: string;
+  ogType?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogUrl?: string;
+  ogImage?: string;
+  twitterCard?: string;
+  jsonLd?: string;
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogLocale = 'de_AT',
+  ogType = 'website',
+  ogTitle = title,
+  ogDescription = description,
+  ogUrl = canonical,
+  ogImage = '',
+  twitterCard = 'summary_large_image',
+  jsonLd = '',
+  bodyClass = '',
+} = Astro.props;
+
+const site = Astro.site?.href.replace(/\/$/, '') ?? 'https://onlinecasinoexperte.org';
+const canonicalUrl = canonical.startsWith('http') ? canonical : `${site}${canonical}`;
+const ogImageUrl = ogImage
+  ? ogImage.startsWith('http')
+    ? ogImage
+    : `${site}/${ogImage.replace(/^\//, '')}`
+  : '';
+---
+
+<!DOCTYPE html>
+<html lang="de-AT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/211b94d657ece7dcd273df15/script.js"></script>
+    <script is:inline data-cfasync="false">
+      var gtm4wp_datalayer_name = "dataLayer";
+      var dataLayer = dataLayer || [];
+    </script>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={ogUrl.startsWith('http') ? ogUrl : `${site}${ogUrl}`} />
+    <meta property="og:site_name" content="OnlineCasinoExperte.org" />
+    {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+    <meta name="twitter:card" content={twitterCard} />
+    <meta name="twitter:site" content="@CasinoExperte" />
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
+    <link rel="dns-prefetch" href="//kit.fontawesome.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="stylesheet" href="/styles/legacy.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
+    <style is:global>
+      .cky-btn-revisit-wrapper.cky-revisit-bottom-left {
+        display: none !important;
+        visibility: hidden !important;
+      }
+    </style>
+  </head>
+  <body ontouchstart class={bodyClass}>
+    <Header />
+    <div class="space-box relative">
+      <slot />
+      <Footer />
+    </div>
+    <PostFooter />
+    <SiteScripts />
+  </body>
+</html>

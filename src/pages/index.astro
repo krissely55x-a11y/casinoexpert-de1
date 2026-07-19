@@ -1,50 +1,23 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import bodyHtml from './_body.html?raw';
+
+const meta = {
+  title: "Dein Ratgeber zu Online Casinos in Österreich 2026",
+  description: "Dein Ratgeber zu Online Casinos in Österreich ➡️ Ausführliche Casino Testberichte - Bonus Angebote - Tischspielstrategien - Kostenlose Slots",
+  canonical: "/",
+  ogLocale: "de_AT",
+  ogType: "website",
+  ogTitle: "Dein Ratgeber zu Online Casinos in Österreich 2026",
+  ogDescription: "Dein Ratgeber zu Online Casinos in Österreich ➡️ Ausführliche Casino Testberichte - Bonus Angebote - Tischspielstrategien - Kostenlose Slots",
+  ogUrl: "https://onlinecasinoexperte.org/",
+  ogImage: "wp-content/uploads/2023/07/Online-Casino-Vergleich-Oesterreich-Die-besten-Online-Casinos-e1689092414558.jpg",
+  twitterCard: "summary_large_image",
+  jsonLd: "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#article\",\"isPartOf\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/\"},\"author\":{\"name\":\"Tobias Dächer\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#\\/schema\\/person\\/59024f8d311693b7fafbb8b61c1f9a83\"},\"headline\":\"Online Casino Vergleich Österreich\",\"datePublished\":\"2023-06-06T19:52:54+00:00\",\"dateModified\":\"2024-11-06T08:46:14+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/\"},\"wordCount\":4314,\"publisher\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#organization\"},\"image\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/Online-Casino-Vergleich-Oesterreich-Die-besten-Online-Casinos-e1689092414558.jpg\",\"inLanguage\":\"de-AT\"},{\"@type\":[\"WebPage\",\"FAQPage\"],\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/\",\"name\":\"Dein Ratgeber zu Online Casinos in Österreich 2026\",\"isPartOf\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#organization\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/Online-Casino-Vergleich-Oesterreich-Die-besten-Online-Casinos-e1689092414558.jpg\",\"datePublished\":\"2023-06-06T19:52:54+00:00\",\"dateModified\":\"2024-11-06T08:46:14+00:00\",\"description\":\"Dein Ratgeber zu Online Casinos in Österreich ➡️ Ausführliche Casino Testberichte - Bonus Angebote - Tischspielstrategien - Kostenlose Slots\",\"breadcrumb\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#breadcrumb\"},\"mainEntity\":[{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699124432\"},{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699141023\"},{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699167894\"},{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699218772\"}],\"inLanguage\":\"de-AT\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/onlinecasinoexperte.org\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"de-AT\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#primaryimage\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/Online-Casino-Vergleich-Oesterreich-Die-besten-Online-Casinos-e1689092414558.jpg\",\"contentUrl\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/Online-Casino-Vergleich-Oesterreich-Die-besten-Online-Casinos-e1689092414558.jpg\",\"width\":800,\"height\":371,\"caption\":\"Online Casino Vergleich Österreich: Die besten Online Casinos\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Online Casinos Österreich\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#website\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/\",\"name\":\"OnlineCasinoExperte.org\",\"description\":\"Dein Experte für Online Casinos\",\"publisher\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#organization\"},\"alternateName\":\"OnlineCasinoExperte\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/onlinecasinoexperte.org\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"de-AT\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#organization\",\"name\":\"OnlineCasinoExperte.org\",\"alternateName\":\"OnlineCasinoExperte\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"de-AT\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/OnlineCasinoExperte-Logo-.png\",\"contentUrl\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/07\\/OnlineCasinoExperte-Logo-.png\",\"width\":400,\"height\":66,\"caption\":\"OnlineCasinoExperte.org\"},\"image\":{\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/x.com\\/CasinoExperte\"]},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#\\/schema\\/person\\/59024f8d311693b7fafbb8b61c1f9a83\",\"name\":\"Tobias Dächer\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"de-AT\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/05\\/Tobias-Daecher-100x100.jpg\",\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/05\\/Tobias-Daecher-100x100.jpg\",\"contentUrl\":\"https:\\/\\/onlinecasinoexperte.org\\/wp-content\\/uploads\\/2023\\/05\\/Tobias-Daecher-100x100.jpg\",\"caption\":\"Tobias Dächer\"},\"description\":\"Ich bin begeisterter Tischspiel-Experte und Casino-Enthusiast. Seit über 20 Jahren beschäftige ich mit Glücksspiel in landbasierten Spielcasinos und Online Casinos und habe mir über die Jahre umfangreiche Kenntnisse angeeignet. Mit meinen Erfahrungen möchte ich als Autor das Team bereichern und Spielern das Online Gaming näherbringen.\",\"sameAs\":[\"https:\\/\\/www.linkedin.com\\/in\\/tobias-dcher-670465298\\/\"],\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/ueber-uns\\/tobias\\/\"},{\"@type\":\"Question\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699124432\",\"position\":1,\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699124432\",\"name\":\"Wie wähle ich das beste Online-Casino in Österreich aus?\",\"answerCount\":1,\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Bei der Auswahl des besten Online-Casinos in Österreich sollten Sie mehrere Faktoren berücksichtigen, darunter die Sicherheit und Lizenzierung des Casinos, die angebotenen Spiele und Boni, die Qualität des Kundenservices und die verfügbaren Zahlungsmethoden. Es kann hilfreich sein, Online Casino Erfahrungen und Vergleiche zu lesen, um eine fundierte Entscheidung zu treffen.\",\"inLanguage\":\"de-AT\"},\"inLanguage\":\"de-AT\"},{\"@type\":\"Question\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699141023\",\"position\":2,\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699141023\",\"name\":\"Was sind die populärsten Online-Casinospiele in Österreich?\",\"answerCount\":1,\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Zu den beliebtesten Online-Casinospiele in Österreich gehören Slotmaschinen, Progressive Jackpot Spielautomaten, Videopoker-Spiele, Pokerspiele, Blackjack-Spiele und Roulette-Spiele. Viele Online-Casinos bieten auch Live Dealer Games und weitere zusätzliche Spiele an.\",\"inLanguage\":\"de-AT\"},\"inLanguage\":\"de-AT\"},{\"@type\":\"Question\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699167894\",\"position\":3,\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699167894\",\"name\":\"Kann ich in Online-Casinos in Österreich mit Echtgeld spielen?\",\"answerCount\":1,\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, alle in diesem Artikel vorgestellten Online-Casinos ermöglichen es dir, mit Echtgeld zu spielen. Dies ermöglicht es dir, echte Geldgewinne zu erzielen, wenn du Glück hast.\",\"inLanguage\":\"de-AT\"},\"inLanguage\":\"de-AT\"},{\"@type\":\"Question\",\"@id\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699218772\",\"position\":4,\"url\":\"https:\\/\\/onlinecasinoexperte.org\\/#faq-question-1685699218772\",\"name\":\"Sind Online-Casinos in Österreich sicher?\",\"answerCount\":1,\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, alle von uns empfohlenen Online-Casinos in Österreich sind sicher. Sie sind alle lizenziert und reguliert, was bedeutet, dass sie sich an strenge Sicherheitsstandards und Fairness-Richtlinien halten. Trotzdem ist es immer wichtig, die Allgemeinen Geschäftsbedingungen zu lesen und sicherzustellen, dass du mit den Richtlinien des Casinos einverstanden bist, bevor du dich anmeldest und spielst.\",\"inLanguage\":\"de-AT\"},\"inLanguage\":\"de-AT\"}]}",
+  bodyClass: "home wp-singular page-template page-template-page-without-title page-template-page-without-title-php page page-id-276 wp-custom-logo wp-theme-mercury wp-child-theme-mercury-child groovy_menu_2-6-3",
+};
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+<BaseLayout {...meta}>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>
