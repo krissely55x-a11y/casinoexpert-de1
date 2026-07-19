@@ -9,6 +9,7 @@ import { join } from 'node:path';
 const root = process.cwd();
 
 const paths = [
+  'wrangler.jsonc',
   'src/pages/rss.xml.js',
   'src/pages/rss.xml.ts',
   'src/pages/blog',

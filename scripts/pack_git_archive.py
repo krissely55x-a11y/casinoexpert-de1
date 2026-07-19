@@ -21,6 +21,7 @@ INCLUDE_FILES = (
     ".gitignore",
     "astro.config.mjs",
     "cloudflare-pages.md",
+    "GITHUB-UPLOAD.md",
     "package.json",
     "package-lock.json",
     "tsconfig.json",

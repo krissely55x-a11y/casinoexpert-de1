@@ -1,42 +1,65 @@
-# Cloudflare Pages (GitHub)
+# Cloudflare Workers + Astro (актуальный UI)
 
-Подключите репозиторий в Cloudflare Pages:
+Вы создали проект через **Workers → шаблон Astro**. Это **Workers Builds**, не старый Pages.
 
-| Параметр | Значение |
-|----------|----------|
-| Build command | `npm ci && npm run build` |
-| Build output directory | `dist` |
-| Deploy command | `npm run deploy` *(или оставить пустым — тогда dist публикуется автоматически)* |
-| Node.js version | 22 |
+Документация: [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/)
 
-**Важно:** если в логе `Missing script: "deploy"` — в GitHub старый `package.json`.
-Залей актуальный архив `archive/onlinecasinoexperte-astro-git.zip` или минимум:
-`package.json`, `scripts/deploy.mjs`, `scripts/remove-template-junk.mjs`.
+## Где настраивать
 
-Проверка локально: `npm run verify:cf`
+1. [dash.cloudflare.com](https://dash.cloudflare.com)
+2. Слева: **Workers & Pages**
+3. Клик по **имени вашего приложения** (Worker, URL вида `*.workers.dev`)
+4. Вверху вкладка **Settings**
+5. В левом меню Settings: **Build**
 
-Custom domain: `onlinecasinoexperte.org` + `www` (redirect на apex).
+Там два поля:
 
-Файл `wrangler.toml` уже задаёт `pages_build_output_dir = "./dist"`.
+| Поле | Значение |
+|------|----------|
+| **Build command** | `npm ci && npm run build` |
+| **Deploy command** | `npx wrangler deploy` |
 
-## Структура репозитория
+**Не** `npm run deploy`, если в GitHub нет этого скрипта.  
+Либо Deploy command = `npm run deploy`, если в `package.json` есть `"deploy": "wrangler deploy"`.
+
+Нажмите **Save**. Следующий билд подхватит настройки.
+
+## Node.js 22
+
+Settings → **Build** → блок **Build variables and secrets** (или Environment variables для build):
+
+- `NODE_VERSION` = `22`
+
+## Запуск деплоя
+
+1. Вкладка **Deployments** (или **Overview** → список деплоев)
+2. **Retry deployment** / новый push в GitHub
+
+## Успешный лог
 
 ```
-onlinecasinoexperte.org/
-├── src/          # Astro: layouts, pages, components
-├── public/       # статика (wp-content, CSS, robots.txt)
-├── mirror/       # исходное Wayback-зеркало (для скриптов)
-├── scripts/      # Python-утилиты
-├── reports/      # JSON/PDF отчёты
-├── archive/      # локальные бэкапы (не в Git)
-├── dist/         # сборка (не в Git, создаётся на Cloudflare)
-└── package.json
+310 page(s) built
+Success: Build command completed
+... wrangler deploy ...
+Success
 ```
 
-## Локально
+## Домен
 
-```powershell
-npm ci
-npm run dev
-npm run build
+Settings → **Domains & Routes** → **Add** → **Custom domain** → `onlinecasinoexperte.org`
+
+## Проверка
+
+- `https://<имя>.workers.dev/site-build-id.txt`
+- потом `https://onlinecasinoexperte.org/`
+
+## wrangler.toml в GitHub
+
+Для Workers static site нужно:
+
+```toml
+[assets]
+directory = "./dist"
 ```
+
+**Ошибка `dist/_worker.js/index.js was not found`:** в GitHub остался `wrangler.jsonc` от шаблона Astro (SSR). Удалите его. Нужен только `wrangler.toml` с `[assets] directory = "./dist"`.
