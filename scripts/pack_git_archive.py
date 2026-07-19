@@ -139,6 +139,19 @@ def main() -> None:
         if not (OUT_DIR / req).exists():
             raise SystemExit(f"Archive validation failed: missing {req}")
 
+    legacy_css = (OUT_DIR / "public/styles/legacy.css").read_text(
+        encoding="utf-8", errors="ignore"
+    )
+    bad_root = ":root{clip-path:inset(50%);height:1px"
+    if bad_root in legacy_css:
+        raise SystemExit(
+            "Archive validation failed: legacy.css collapses the document root"
+        )
+
+    layout = (OUT_DIR / "src/layouts/BaseLayout.astro").read_text(encoding="utf-8")
+    if "clip-path: none !important" not in layout:
+        raise SystemExit("Archive validation failed: missing document-root CSS guard")
+
     size_mb = OUT_ZIP.stat().st_size / 1024 / 1024
     print(f"Packed {total} files")
     print(f"Folder: {OUT_DIR}")

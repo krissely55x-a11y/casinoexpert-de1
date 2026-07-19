@@ -1,3 +1,2 @@
-onlinecasinoexperte-astro-310pages
-If you see "Hello, Astronaut" on the homepage but this file opens correctly,
-Cloudflare is serving the wrong deployment or the wrong project.
+onlinecasinoexperte-white-screen-fix-20260719-2313
+This build fixes the malformed :root CSS rule that collapsed HTML to 1x1 px.

@@ -6,7 +6,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "mirror"
-SOURCE_HTML = SITE / "index.html"
+# mirror/index.html is an Internet Archive placeholder, not the captured site.
+# This page contains the complete WordPress frontend stylesheet set.
+SOURCE_HTML = SITE / "bonus" / "angebote" / "index.html"
 OUT_CSS = ROOT / "public" / "styles" / "legacy.css"
 
 SKIP_STYLE_IDS = {
@@ -15,10 +17,12 @@ SKIP_STYLE_IDS = {
 }
 
 EDITOR_PATTERNS = [
-    re.compile(r"--wp-admin-[^;]+;"),
-    re.compile(r"--wp-block-synced-color[^;]*;"),
-    re.compile(r"--wp-editor-canvas-background[^;]*;"),
-    re.compile(r"--wp-bound-block-color[^;]*;"),
+    # Never cross a CSS block boundary. The old [^;] patterns could consume
+    # `}.screen-reader-text{` when a custom property lacked a final semicolon.
+    re.compile(r"--wp-admin-[^;{}]+;?"),
+    re.compile(r"--wp-block-synced-color[^;{}]*;?"),
+    re.compile(r"--wp-editor-canvas-background[^;{}]*;?"),
+    re.compile(r"--wp-bound-block-color[^;{}]*;?"),
 ]
 
 

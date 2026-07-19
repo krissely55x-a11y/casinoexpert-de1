@@ -8,6 +8,31 @@ const root = join(process.cwd(), 'dist');
 let files = 0;
 let changes = 0;
 
+function fixGlobalCss() {
+  const cssPath = join(root, 'styles', 'legacy.css');
+  if (!statSync(cssPath, { throwIfNoEntry: false })?.isFile()) {
+    throw new Error('fix_html_assets: dist/styles/legacy.css not found');
+  }
+
+  const badRoot =
+    ':root{clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;' +
+    'padding:0;position:absolute;width:1px;word-wrap:normal!important}';
+  const screenReader =
+    '.screen-reader-text{clip-path:inset(50%);height:1px;margin:-1px;' +
+    'overflow:hidden;padding:0;position:absolute;width:1px;' +
+    'word-wrap:normal!important}';
+
+  const before = readFileSync(cssPath, 'utf8');
+  const css = before.replaceAll(badRoot, screenReader);
+  if (css.includes(badRoot)) {
+    throw new Error('fix_html_assets: fatal document-collapsing :root rule remains');
+  }
+  if (css !== before) {
+    writeFileSync(cssPath, css, 'utf8');
+    console.log('fix_html_assets: repaired document-collapsing CSS rule');
+  }
+}
+
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const path = join(dir, name);
@@ -36,5 +61,6 @@ if (!statSync(root, { throwIfNoEntry: false })?.isDirectory()) {
   process.exit(0);
 }
 
+fixGlobalCss();
 walk(root);
 console.log(`fix_html_assets: checked ${files} html, updated ${changes}`);
