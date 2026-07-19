@@ -25,6 +25,7 @@ INCLUDE_FILES = (
     "package.json",
     "package-lock.json",
     "tsconfig.json",
+    "wrangler.jsonc",
     "wrangler.toml",
 )
 
@@ -134,7 +135,7 @@ def main() -> None:
     if missing:
         raise SystemExit(f"Archive validation failed: missing scripts {missing}")
 
-    for req in ("scripts/deploy.mjs", "scripts/remove-template-junk.mjs"):
+    for req in ("scripts/deploy.mjs", "scripts/remove-template-junk.mjs", "scripts/fix_html_assets.mjs"):
         if not (OUT_DIR / req).exists():
             raise SystemExit(f"Archive validation failed: missing {req}")
 

@@ -70,8 +70,26 @@ const ogImageUrl = ogImage
     <link rel="dns-prefetch" href="//kit.fontawesome.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="stylesheet" href="/styles/legacy.css" />
-    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
     <style is:global>
+      html, body {
+        background: #fff;
+        color: #2a2a2a;
+      }
+      .space-box.relative {
+        padding-top: 80px;
+      }
+      @media (max-width: 1023px) {
+        .space-box.relative {
+          padding-top: 70px;
+        }
+      }
+      .gm-navbar,
+      .space-page-content,
+      main {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
       .cky-btn-revisit-wrapper.cky-revisit-bottom-left {
         display: none !important;
         visibility: hidden !important;

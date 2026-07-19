@@ -17,7 +17,7 @@
 | Поле | Значение |
 |------|----------|
 | **Build command** | `npm ci && npm run build` |
-| **Deploy command** | `npx wrangler deploy` |
+| **Deploy command** | `npx wrangler deploy --assets ./dist --name casinoexpert-de1 --compatibility-date 2024-07-01` |
 
 **Не** `npm run deploy`, если в GitHub нет этого скрипта.  
 Либо Deploy command = `npm run deploy`, если в `package.json` есть `"deploy": "wrangler deploy"`.
