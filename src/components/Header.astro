@@ -1,5 +1,63 @@
 ---
-import headerHtml from '../partials/header.html?raw';
+const navigation = [
+  { href: '/casinos/', label: 'Casino Erfahrungen' },
+  { href: '/bonus/', label: 'Casino Bonus' },
+  { href: '/slots/', label: 'Online Slots' },
+  { href: '/tischspiele/', label: 'Tischspiele' },
+  { href: '/strategien/', label: 'Strategien' },
+];
 ---
 
-<Fragment set:html={headerHtml} />
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="/" aria-label="OnlineCasinoExperte Startseite">
+      <img
+        src="/wp-content/uploads/2023/05/OnlineCasinoExperte-Logo.png"
+        width="304"
+        height="50"
+        alt="OnlineCasinoExperte"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
+    </a>
+
+    <button
+      class="site-header__toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-navigation"
+      aria-label="Menü öffnen"
+    >
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="site-navigation" class="site-navigation" aria-label="Hauptnavigation">
+      {navigation.map((item) => (
+        <a href={item.href}>{item.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  (() => {
+    const button = document.querySelector('.site-header__toggle');
+    const navigation = document.querySelector('.site-navigation');
+    if (!(button instanceof HTMLButtonElement) || !(navigation instanceof HTMLElement)) return;
+
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!open));
+      button.setAttribute('aria-label', open ? 'Menü öffnen' : 'Menü schließen');
+      navigation.classList.toggle('is-open', !open);
+    });
+
+    navigation.addEventListener('click', (event) => {
+      if (!(event.target instanceof HTMLAnchorElement)) return;
+      button.setAttribute('aria-expanded', 'false');
+      button.setAttribute('aria-label', 'Menü öffnen');
+      navigation.classList.remove('is-open');
+    });
+  })();
+</script>

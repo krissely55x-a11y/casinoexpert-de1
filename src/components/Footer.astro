@@ -1,5 +1,60 @@
----
-import footerHtml from '../partials/footer.html?raw';
----
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__links">
+      <section>
+        <h2>Casino Ratgeber</h2>
+        <a href="/ratgeber/">Ratgeber</a>
+        <a href="/ratgeber/rtp/">Was ist RTP?</a>
+        <a href="/ratgeber/volatilitaet/">Was ist Volatilität?</a>
+      </section>
+      <section>
+        <h2>Über uns</h2>
+        <a href="/ueber-uns/">Unser Team</a>
+        <a href="/kontakt/">Kontakt</a>
+        <a href="/impressum/">Impressum</a>
+      </section>
+      <section>
+        <h2>Sicher spielen</h2>
+        <a href="/haftungsausschluss/">Haftungsausschluss</a>
+        <a href="/datenschutz/">Datenschutz</a>
+        <span>Nur für Personen ab 18 Jahren.</span>
+      </section>
+    </div>
 
-<Fragment set:html={footerHtml} />
+    <div class="site-footer__responsibility">
+      <img
+        src="/wp-content/uploads/2023/11/spiele-mit-verantwortung.png"
+        width="250"
+        height="139"
+        loading="lazy"
+        decoding="async"
+        alt="Spiele mit Verantwortung"
+      />
+      <img
+        src="/wp-content/uploads/2023/11/spielschutzhilfe-oesterreich.png"
+        width="500"
+        height="211"
+        loading="lazy"
+        decoding="async"
+        alt="Spielschutzhilfe Österreich"
+      />
+      <img
+        src="/wp-content/uploads/2023/11/18-plus.png"
+        width="60"
+        height="60"
+        loading="lazy"
+        decoding="async"
+        alt="Glücksspiel ab 18 Jahren"
+      />
+    </div>
+
+    <p class="site-footer__notice">
+      Wir bieten Informationen für sicheres Online-Glücksspiel in Österreich.
+      Werbung für gelistete Anbieter kann vergütet werden. Spiele nur, was du
+      dir leisten kannst, und nur bei lizenzierten Anbietern.
+    </p>
+    <p class="site-footer__copyright">
+      © 2026 OnlineCasinoExperte.org
+    </p>
+  </div>
+</footer>
