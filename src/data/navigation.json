@@ -1,0 +1,636 @@
+[
+  {
+    "href": "/casinos/",
+    "label": "Casino Erfahrungen",
+    "children": [
+      {
+        "href": "/casinos/skycrown/",
+        "label": "Skycrown Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/goodman/",
+        "label": "Goodman Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/horus/",
+        "label": "Horus Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/gioo/",
+        "label": "Gioo Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/casinobuck/",
+        "label": "CasinoBuck Erfahrungen"
+      },
+      {
+        "href": "/casinos/crownplay/",
+        "label": "Crownplay Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/levelup/",
+        "label": "LevelUp Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/kryptosino/",
+        "label": "Kryptosino Erfahrungen"
+      },
+      {
+        "href": "/casinos/vegaz/",
+        "label": "Vegaz Casino Erfahrungen"
+      },
+      {
+        "href": "/casinos/haz/",
+        "label": "Haz Casino Erfahrungen"
+      },
+      {
+        "href": "/serioes/",
+        "label": "Seriöse Casinos"
+      },
+      {
+        "href": "/neu/",
+        "label": "Neue Casinos"
+      },
+      {
+        "href": "/echtgeld/",
+        "label": "Echtgeld Casinos"
+      },
+      {
+        "href": "/jackpot/",
+        "label": "Jackpot Casinos"
+      },
+      {
+        "href": "/live/",
+        "label": "Live Casinos"
+      },
+      {
+        "href": "/lizenz/",
+        "label": "Casinos mit EU Lizenz"
+      },
+      {
+        "href": "/apps/",
+        "label": "Casino Apps",
+        "children": [
+          {
+            "href": "/apps/echtgeld/",
+            "label": "Echtgeld Casino Apps"
+          },
+          {
+            "href": "/apps/android/",
+            "label": "Android Casino Apps"
+          },
+          {
+            "href": "/apps/iphone/",
+            "label": "iPhone Casino Apps"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "href": "/bonus/",
+    "label": "Casino Bonus",
+    "children": [
+      {
+        "href": "/casinos/skycrown/bonus/",
+        "label": "SkyCrown Casino Bonus"
+      },
+      {
+        "href": "/casinos/goodman/bonus/",
+        "label": "Goodman Casino Bonus"
+      },
+      {
+        "href": "/casinos/horus/bonus/",
+        "label": "Horus Casino Bonus"
+      },
+      {
+        "href": "/casinos/gioo/bonus/",
+        "label": "Gioo Casino Bonus"
+      },
+      {
+        "href": "/casinos/casinobuck/bonus/",
+        "label": "CasinoBuck Bonus"
+      },
+      {
+        "href": "/casinos/crownplay/bonus/",
+        "label": "CrownPlay Casino Bonus"
+      },
+      {
+        "href": "/casinos/levelup/bonus/",
+        "label": "LevelUp Casino Bonus"
+      },
+      {
+        "href": "/casinos/kryptosino/bonus/",
+        "label": "Kryptosino Bonus"
+      },
+      {
+        "href": "/casinos/vegaz/bonus/",
+        "label": "Vegaz Casino Bonus"
+      },
+      {
+        "href": "/casinos/haz/bonus/",
+        "label": "Haz Casino Bonus"
+      },
+      {
+        "href": "/bonus/angebote/",
+        "label": "Casino Angebote"
+      },
+      {
+        "href": "/bonus/freispiele/",
+        "label": "Casino Freispiele",
+        "children": [
+          {
+            "href": "/bonus/freispiele/ohne-einzahlung/",
+            "label": "Casino Freispiele ohne Einzahlung"
+          }
+        ]
+      },
+      {
+        "href": "/bonus/einzahlungsbonus/",
+        "label": "Casino Einzahlungsbonus"
+      },
+      {
+        "href": "/bonus/ohne-umsatz/",
+        "label": "Bonus ohne Umsatzbedingungen"
+      },
+      {
+        "href": "/bonus/ohne-einzahlung/",
+        "label": "Bonus ohne Einzahlung"
+      },
+      {
+        "href": "/bonus/gutscheine/",
+        "label": "Casino Gutscheine"
+      },
+      {
+        "href": "/bonus/willkommensbonus/",
+        "label": "Casino Willkommensbonus"
+      },
+      {
+        "href": "/bonus/startguthaben/",
+        "label": "Casinos mit Startguthaben"
+      }
+    ]
+  },
+  {
+    "href": "/slots/",
+    "label": "Online Slots",
+    "children": [
+      {
+        "href": "/slots/netent/",
+        "label": "Netent Slots",
+        "children": [
+          {
+            "href": "/slots/netent/aloha-christmas/",
+            "label": "Aloha! Christmas spielen"
+          },
+          {
+            "href": "/slots/netent/aloha-cluster-pays/",
+            "label": "Aloha! Cluster Pays spielen"
+          },
+          {
+            "href": "/slots/netent/arabian-nights/",
+            "label": "Arabian Nights spielen"
+          },
+          {
+            "href": "/slots/netent/arcane-reel-chaos/",
+            "label": "Arcane: Reel Chaos spielen"
+          },
+          {
+            "href": "/slots/netent/archangels-salvation/",
+            "label": "Archangels Salvation spielen"
+          },
+          {
+            "href": "/slots/netent/asgardian-stones/",
+            "label": "Asgardian Stones spielen"
+          },
+          {
+            "href": "/slots/netent/bee-hive-bonanza/",
+            "label": "Bee Hive Bonanza spielen"
+          },
+          {
+            "href": "/slots/netent/berryburst/",
+            "label": "Berryburst spielen"
+          },
+          {
+            "href": "/slots/netent/dead-or-alive/",
+            "label": "Dead or Alive spielen"
+          },
+          {
+            "href": "/slots/netent/blood-suckers/",
+            "label": "Blood Suckers spielen"
+          },
+          {
+            "href": "/slots/netent/dead-or-alive-2/",
+            "label": "Dead or Alive 2 spielen"
+          },
+          {
+            "href": "/slots/netent/excalibur/",
+            "label": "Excalibur spielen"
+          },
+          {
+            "href": "/slots/netent/divine-fortune/",
+            "label": "Divine Fortune spielen"
+          }
+        ]
+      },
+      {
+        "href": "/slots/gamomat/",
+        "label": "Gamomat Slots",
+        "children": [
+          {
+            "href": "/slots/gamomat/super-duper-moorhuhn/",
+            "label": "Super Duper Moorhuhn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "href": "/tischspiele/",
+    "label": "Casino Tischspiele",
+    "children": [
+      {
+        "href": "/tischspiele/roulette/",
+        "label": "Roulette kostenlos spielen",
+        "children": [
+          {
+            "href": "/tischspiele/roulette/europaeisch/",
+            "label": "Europäisches Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/amerikanisch/",
+            "label": "Amerikanisches Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/franzoesisch/",
+            "label": "Französisches Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/mini-roulette/",
+            "label": "Mini-Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/multi-wheel-roulette/",
+            "label": "Multi Wheel Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/double-ball/",
+            "label": "Double Ball Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/diamond-bet/",
+            "label": "Diamond Bet Roulette spielen"
+          },
+          {
+            "href": "/tischspiele/roulette/101-roulette/",
+            "label": "101 Roulette spielen"
+          }
+        ]
+      },
+      {
+        "href": "/tischspiele/blackjack/",
+        "label": "Blackjack kostenlos spielen"
+      },
+      {
+        "href": "/tischspiele/baccarat/",
+        "label": "Baccarat kostenlos spielen"
+      }
+    ]
+  },
+  {
+    "href": "/strategien/",
+    "label": "Casino Strategien",
+    "children": [
+      {
+        "href": "/strategien/roulette/",
+        "label": "Roulette Strategien",
+        "children": [
+          {
+            "href": "/strategien/roulette/martingale/",
+            "label": "Martingale Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/paroli/",
+            "label": "Paroli Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/parlay/",
+            "label": "Parlay Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/labouchere/",
+            "label": "Labouchère Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/dutzend-raster/",
+            "label": "Dutzend Raster Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/reverse-fibonacci/",
+            "label": "Reverse Fibonacci Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/d-alembert/",
+            "label": "d’Alembert Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/shotwell/",
+            "label": "Shotwell Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/oscars-grind/",
+            "label": "Oscar’s Grind Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/james-bond/",
+            "label": "James Bond Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/kavouras-wette/",
+            "label": "Kavouras Roulette Wett-Strategie"
+          },
+          {
+            "href": "/strategien/roulette/angelika/",
+            "label": "Angelika Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/4567-strategie/",
+            "label": "4567 Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/150-euro-system/",
+            "label": "150 Euro Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/64-prozent/",
+            "label": "64 Prozent Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/666-system/",
+            "label": "666 Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/24-8/",
+            "label": "24 + 8 Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/1-3-2-6-system/",
+            "label": "1326 Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/hollaendisches-system/",
+            "label": "Holländisches Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/guetting-progression/",
+            "label": "Guetting Progression Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/kesselgucken/",
+            "label": "Kesselgucken Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/flat-betting/",
+            "label": "Flat Betting Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/fitzroy/",
+            "label": "Fitzroy Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/contra-d-alembert/",
+            "label": "Contra D’Alembert Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/double-street-quad/",
+            "label": "Double Street Quad Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/montante-americaine/",
+            "label": "Montante Américaine Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/masse-egale/",
+            "label": "Masse Egale Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/montante-hollandaise/",
+            "label": "Montante Hollandaise Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/romanowsky/",
+            "label": "Romanowsky Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/orphelins/",
+            "label": "Orphelins Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/nugget-system/",
+            "label": "Nugget Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/red-and-black-system/",
+            "label": "Red & Black Roulette System"
+          },
+          {
+            "href": "/strategien/roulette/whittaker-progression/",
+            "label": "Whittaker Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/tiers-et-tout/",
+            "label": "Tiers et Tout Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/voisins-du-zero/",
+            "label": "Voisins du Zero Roulette Strategie"
+          },
+          {
+            "href": "/strategien/roulette/fischer/",
+            "label": "Fischer Roulette Strategie"
+          }
+        ]
+      },
+      {
+        "href": "/strategien/blackjack/",
+        "label": "Blackjack Strategien",
+        "children": [
+          {
+            "href": "/strategien/blackjack/grundstrategie/",
+            "label": "Blackjack Grundstrategie"
+          },
+          {
+            "href": "/strategien/blackjack/1-3-2-6/",
+            "label": "1-3-2-6 Blackjack Strategie"
+          },
+          {
+            "href": "/strategien/blackjack/karten-zaehlen/",
+            "label": "Blackjack Kartenzählen"
+          },
+          {
+            "href": "/strategien/blackjack/oscars-grind/",
+            "label": "Oscar’s Grind Blackjack Strategie"
+          },
+          {
+            "href": "/strategien/blackjack/fibonacci/",
+            "label": "Fibonacci Blackjack System"
+          },
+          {
+            "href": "/strategien/blackjack/d-alembert/",
+            "label": "D’Alembert Blackjack System"
+          },
+          {
+            "href": "/strategien/blackjack/parlay/",
+            "label": "Parlay Blackjack System"
+          },
+          {
+            "href": "/strategien/blackjack/labouchere/",
+            "label": "Labouchere Blackjack System"
+          },
+          {
+            "href": "/strategien/roulette/progression/",
+            "label": "Blackjack Einsatz-Progression"
+          },
+          {
+            "href": "/strategien/blackjack/wonging/",
+            "label": "Wonging im Blackjack"
+          },
+          {
+            "href": "/strategien/blackjack/shuffle-tracking/",
+            "label": "Shuffle Tracking"
+          },
+          {
+            "href": "/strategien/blackjack/side-bets/",
+            "label": "Side Bets"
+          },
+          {
+            "href": "/strategien/roulette/progression/",
+            "label": "Einsatzprogression"
+          }
+        ]
+      },
+      {
+        "href": "/strategien/poker/",
+        "label": "Poker Strategien",
+        "children": [
+          {
+            "href": "/strategien/poker/tight-aggressive/",
+            "label": "Tight Aggressive Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/loose-aggressive/",
+            "label": "Loose Aggressive Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/tight-passive/",
+            "label": "Tight Passive Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/loose-passive/",
+            "label": "Loose Passive Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/bluff/",
+            "label": "Bluffen im Poker"
+          },
+          {
+            "href": "/strategien/poker/positionsspiel/",
+            "label": "Poker Positionsspiel"
+          },
+          {
+            "href": "/strategien/poker/hand-reading/",
+            "label": "Hand Reading Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/bankroll-management/",
+            "label": "Bankroll Management"
+          },
+          {
+            "href": "/strategien/poker/continuation-betting/",
+            "label": "Continuation Bet Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/check-raise/",
+            "label": "Check Raise Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/slow-playing/",
+            "label": "Slow Playing Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/stealing-blinds/",
+            "label": "Stealing Blinds Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/pot-odds/",
+            "label": "Pot Odds"
+          },
+          {
+            "href": "/strategien/poker/squeeze-play/",
+            "label": "Squeeze Play Strategie"
+          },
+          {
+            "href": "/strategien/poker/floating/",
+            "label": "Float Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/3-bet/",
+            "label": "3-Bet Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/polarisiert-linear/",
+            "label": "Polarisierte & Lineare Range im Poker"
+          },
+          {
+            "href": "/strategien/poker/blocker-bet/",
+            "label": "Blocker Bet Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/probe-bet/",
+            "label": "Probe Bet Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/overbet/",
+            "label": "Overbetting Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/donk-bet/",
+            "label": "Donk Bet im Poker"
+          },
+          {
+            "href": "/strategien/poker/isolating/",
+            "label": "Isolating Poker Strategie"
+          },
+          {
+            "href": "/strategien/poker/triple-barrel-bluff/",
+            "label": "Triple Barrel Bluff Strategie"
+          },
+          {
+            "href": "/strategien/poker/table-image-manipulation/",
+            "label": "Table Image Manipulation"
+          },
+          {
+            "href": "/strategien/poker/pot-control/",
+            "label": "Pot Control"
+          },
+          {
+            "href": "/strategien/poker/reverse-implied-odds/",
+            "label": "Reverse Implied Odds"
+          },
+          {
+            "href": "/strategien/poker/range-merging/",
+            "label": "Range Merging"
+          },
+          {
+            "href": "/strategien/poker/thin-value-betting/",
+            "label": "Thin Value Bet Strategie"
+          },
+          {
+            "href": "/strategien/poker/double-barrel-bluff/",
+            "label": "Double Barrel Bluff"
+          }
+        ]
+      }
+    ]
+  }
+]

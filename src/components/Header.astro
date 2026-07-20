@@ -1,57 +1,5 @@
 ---
-const navigation = [
-  {
-    href: '/casinos/',
-    label: 'Casino Erfahrungen',
-    children: [
-      { href: '/casinos/skycrown/', label: 'SkyCrown Casino' },
-      { href: '/casinos/goodman/', label: 'Goodman Casino' },
-      { href: '/casinos/gioo/', label: 'Gioo Casino' },
-      { href: '/serioes/', label: 'Seriöse Casinos' },
-      { href: '/neu/', label: 'Neue Casinos' },
-      { href: '/echtgeld/', label: 'Echtgeld Casinos' },
-    ],
-  },
-  {
-    href: '/bonus/',
-    label: 'Casino Bonus',
-    children: [
-      { href: '/bonus/angebote/', label: 'Casino Angebote' },
-      { href: '/bonus/freispiele/', label: 'Freispiele' },
-      { href: '/bonus/ohne-einzahlung/', label: 'Ohne Einzahlung' },
-      { href: '/bonus/einzahlungsbonus/', label: 'Einzahlungsbonus' },
-      { href: '/bonus/willkommensbonus/', label: 'Willkommensbonus' },
-    ],
-  },
-  {
-    href: '/slots/',
-    label: 'Online Slots',
-    children: [
-      { href: '/slots/netent/', label: 'NetEnt Slots' },
-      { href: '/slots/gamomat/', label: 'Gamomat Slots' },
-      { href: '/slots/netent/starburst/', label: 'Starburst' },
-      { href: '/slots/netent/dead-or-alive/', label: 'Dead or Alive' },
-    ],
-  },
-  {
-    href: '/tischspiele/',
-    label: 'Tischspiele',
-    children: [
-      { href: '/tischspiele/roulette/', label: 'Roulette' },
-      { href: '/tischspiele/blackjack/', label: 'Blackjack' },
-      { href: '/tischspiele/baccarat/', label: 'Baccarat' },
-    ],
-  },
-  {
-    href: '/strategien/',
-    label: 'Strategien',
-    children: [
-      { href: '/strategien/roulette/', label: 'Roulette Strategien' },
-      { href: '/strategien/blackjack/', label: 'Blackjack Strategien' },
-      { href: '/strategien/poker/', label: 'Poker Strategien' },
-    ],
-  },
-];
+import navigation from '../data/navigation.json';
 ---
 
 <header class="site-header">
@@ -92,9 +40,23 @@ const navigation = [
               >
                 <span aria-hidden="true">⌄</span>
               </button>
-              <div class="site-navigation__submenu">
+              <div
+                class:list={[
+                  'site-navigation__submenu',
+                  { 'site-navigation__submenu--mega': item.children.length > 8 || item.children.some((child) => child.children) },
+                ]}
+              >
                 {item.children.map((child) => (
-                  <a href={child.href}>{child.label}</a>
+                  <div class:list={['site-navigation__group', { 'has-children': child.children }]}>
+                    <a class="site-navigation__group-link" href={child.href}>{child.label}</a>
+                    {child.children && (
+                      <div class="site-navigation__nested">
+                        {child.children.map((nested) => (
+                          <a href={nested.href}>{nested.label}</a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
               </div>
             </>

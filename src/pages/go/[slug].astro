@@ -1,0 +1,50 @@
+---
+export function getStaticPaths() {
+  const redirects = {
+    casinobuck: '/casinos/casinobuck/',
+    crownplay: '/casinos/crownplay/',
+    gioo: '/casinos/gioo/',
+    goodman: '/casinos/goodman/',
+    gslot: '/casinos/gslot/',
+    haz: '/casinos/haz/',
+    hejgo: '/casinos/hejgo/',
+    hitnspin: '/casinos/hitnspin/',
+    horus: '/casinos/horus/',
+    kryptosino: '/casinos/kryptosino/',
+    levelup: '/casinos/levelup/',
+    luckyelf: '/casinos/luckyelf/',
+    myempire: '/casinos/myempire/',
+    rant: '/casinos/rant/',
+    rebellion: '/casinos/rebellion/',
+    rockwin: '/casinos/rockwin-io/',
+    scream: '/casinos/scream/',
+    skycrown: '/casinos/skycrown/',
+    vegaz: '/casinos/vegaz/',
+    vinyl: '/casinos/vinyl/',
+  };
+  return Object.entries(redirects).map(([slug, target]) => ({
+    params: { slug },
+    props: { target },
+  }));
+}
+
+const { target } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={new URL(target, Astro.site)} />
+    <title>Weiterleitung zum Casino-Test</title>
+  </head>
+  <body>
+    <p>Du wirst zum vollständigen Casino-Test weitergeleitet.</p>
+    <p><a href={target}>Jetzt weiter</a></p>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target);
+    </script>
+  </body>
+</html>
