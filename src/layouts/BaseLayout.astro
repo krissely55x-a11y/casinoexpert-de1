@@ -21,7 +21,7 @@ const {
   title,
   description,
   canonical,
-  ogLocale = 'de_AT',
+  ogLocale = 'de_DE',
   ogType = 'website',
   ogTitle = title,
   ogDescription = description,
@@ -49,11 +49,19 @@ const ogImageUrl = ogImage
 ---
 
 <!DOCTYPE html>
-<html lang="de-AT">
+<html lang="de-DE">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/wp-content/uploads/2023/05/cropped-favicon-270x270.png" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/2023/05/cropped-favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/2023/05/cropped-favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/2023/05/cropped-favicon-180x180.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />

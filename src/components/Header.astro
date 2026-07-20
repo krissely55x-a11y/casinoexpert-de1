@@ -1,10 +1,56 @@
 ---
 const navigation = [
-  { href: '/casinos/', label: 'Casino Erfahrungen' },
-  { href: '/bonus/', label: 'Casino Bonus' },
-  { href: '/slots/', label: 'Online Slots' },
-  { href: '/tischspiele/', label: 'Tischspiele' },
-  { href: '/strategien/', label: 'Strategien' },
+  {
+    href: '/casinos/',
+    label: 'Casino Erfahrungen',
+    children: [
+      { href: '/casinos/skycrown/', label: 'SkyCrown Casino' },
+      { href: '/casinos/goodman/', label: 'Goodman Casino' },
+      { href: '/casinos/gioo/', label: 'Gioo Casino' },
+      { href: '/serioes/', label: 'Seriöse Casinos' },
+      { href: '/neu/', label: 'Neue Casinos' },
+      { href: '/echtgeld/', label: 'Echtgeld Casinos' },
+    ],
+  },
+  {
+    href: '/bonus/',
+    label: 'Casino Bonus',
+    children: [
+      { href: '/bonus/angebote/', label: 'Casino Angebote' },
+      { href: '/bonus/freispiele/', label: 'Freispiele' },
+      { href: '/bonus/ohne-einzahlung/', label: 'Ohne Einzahlung' },
+      { href: '/bonus/einzahlungsbonus/', label: 'Einzahlungsbonus' },
+      { href: '/bonus/willkommensbonus/', label: 'Willkommensbonus' },
+    ],
+  },
+  {
+    href: '/slots/',
+    label: 'Online Slots',
+    children: [
+      { href: '/slots/netent/', label: 'NetEnt Slots' },
+      { href: '/slots/gamomat/', label: 'Gamomat Slots' },
+      { href: '/slots/netent/starburst/', label: 'Starburst' },
+      { href: '/slots/netent/dead-or-alive/', label: 'Dead or Alive' },
+    ],
+  },
+  {
+    href: '/tischspiele/',
+    label: 'Tischspiele',
+    children: [
+      { href: '/tischspiele/roulette/', label: 'Roulette' },
+      { href: '/tischspiele/blackjack/', label: 'Blackjack' },
+      { href: '/tischspiele/baccarat/', label: 'Baccarat' },
+    ],
+  },
+  {
+    href: '/strategien/',
+    label: 'Strategien',
+    children: [
+      { href: '/strategien/roulette/', label: 'Roulette Strategien' },
+      { href: '/strategien/blackjack/', label: 'Blackjack Strategien' },
+      { href: '/strategien/poker/', label: 'Poker Strategien' },
+    ],
+  },
 ];
 ---
 
@@ -34,7 +80,26 @@ const navigation = [
 
     <nav id="site-navigation" class="site-navigation" aria-label="Hauptnavigation">
       {navigation.map((item) => (
-        <a href={item.href}>{item.label}</a>
+        <div class:list={['site-navigation__item', { 'has-dropdown': item.children }]}>
+          <a href={item.href}>{item.label}</a>
+          {item.children && (
+            <>
+              <button
+                class="site-navigation__dropdown-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-label={`${item.label}: Untermenü öffnen`}
+              >
+                <span aria-hidden="true">⌄</span>
+              </button>
+              <div class="site-navigation__submenu">
+                {item.children.map((child) => (
+                  <a href={child.href}>{child.label}</a>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
       ))}
     </nav>
   </div>
@@ -54,6 +119,20 @@ const navigation = [
     });
 
     navigation.addEventListener('click', (event) => {
+      const dropdownButton = event.target instanceof Element
+        ? event.target.closest('.site-navigation__dropdown-toggle')
+        : null;
+      if (dropdownButton instanceof HTMLButtonElement) {
+        const item = dropdownButton.closest('.site-navigation__item');
+        const open = dropdownButton.getAttribute('aria-expanded') === 'true';
+        navigation.querySelectorAll('.site-navigation__dropdown-toggle').forEach((toggle) => {
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.closest('.site-navigation__item')?.classList.remove('submenu-open');
+        });
+        dropdownButton.setAttribute('aria-expanded', String(!open));
+        item?.classList.toggle('submenu-open', !open);
+        return;
+      }
       if (!(event.target instanceof HTMLAnchorElement)) return;
       button.setAttribute('aria-expanded', 'false');
       button.setAttribute('aria-label', 'Menü öffnen');

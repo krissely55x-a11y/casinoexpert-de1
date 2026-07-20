@@ -1,0 +1,22 @@
+{
+  "name": "OnlineCasinoExperte.org",
+  "short_name": "CasinoExperte",
+  "description": "Online-Casino-Vergleiche und Ratgeber für Deutschland",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/wp-content/uploads/2023/05/cropped-favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/wp-content/uploads/2023/05/cropped-favicon-270x270.png",
+      "sizes": "270x270",
+      "type": "image/png"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 const root = join(process.cwd(), 'dist');
+const freshDate = '2026-07-20';
 let files = 0;
 let changes = 0;
 const transparentPixel =
@@ -126,6 +127,25 @@ function walk(dir) {
   }
 }
 
+function fixSitemaps() {
+  let updated = 0;
+  for (const name of readdirSync(root)) {
+    if (!/^sitemap.*\.xml$/i.test(name)) continue;
+    const path = join(root, name);
+    const before = readFileSync(path, 'utf8');
+    const xml = before.replace(/<(url|sitemap)>(.*?)<\/\1>/gs, (entry, tag, content) => {
+      const stamped = /<lastmod>.*?<\/lastmod>/.test(content)
+        ? content.replace(/<lastmod>.*?<\/lastmod>/g, `<lastmod>${freshDate}</lastmod>`)
+        : content.replace(/(<loc>.*?<\/loc>)/, `$1<lastmod>${freshDate}</lastmod>`);
+      return `<${tag}>${stamped}</${tag}>`;
+    });
+    if (xml === before) continue;
+    writeFileSync(path, xml, 'utf8');
+    updated += 1;
+  }
+  console.log(`fix_html_assets: dated ${updated} sitemap files ${freshDate}`);
+}
+
 if (!statSync(root, { throwIfNoEntry: false })?.isDirectory()) {
   console.log('fix_html_assets: dist/ not found, skipping');
   process.exit(0);
@@ -133,4 +153,5 @@ if (!statSync(root, { throwIfNoEntry: false })?.isDirectory()) {
 
 fixGlobalCss();
 walk(root);
+fixSitemaps();
 console.log(`fix_html_assets: checked ${files} html, updated ${changes}`);
