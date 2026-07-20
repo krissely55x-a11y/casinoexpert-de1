@@ -24,9 +24,25 @@ function assetExists(url) {
 }
 
 function optimizeImage(attributes) {
-  let optimized = attributes;
+  let optimized = attributes.replace(/\s\/\s+(?=(?:loading|decoding)=)/gi, ' ');
   let usableSources = [];
   let missingImage = false;
+
+  for (const [lazyName, nativeName] of [
+    ['data-lazy-srcset', 'srcset'],
+    ['data-lazy-src', 'src'],
+    ['data-lazy-sizes', 'sizes'],
+  ]) {
+    const lazyPattern = new RegExp(`\\s${lazyName}=(['"])(.*?)\\1`, 'i');
+    const lazy = optimized.match(lazyPattern);
+    if (!lazy) continue;
+    optimized = optimized.replace(lazyPattern, '');
+    const nativePattern = new RegExp(`\\s${nativeName}=(['"])(.*?)\\1`, 'i');
+    const nativeAttribute = ` ${nativeName}=${lazy[1]}${lazy[2]}${lazy[1]}`;
+    optimized = nativePattern.test(optimized)
+      ? optimized.replace(nativePattern, nativeAttribute)
+      : optimized + nativeAttribute;
+  }
 
   optimized = optimized.replace(/\ssrcset=(['"])(.*?)\1/i, (_match, quote, value) => {
     usableSources = value
@@ -109,7 +125,8 @@ function walk(dir) {
       })
       .replace(/<img\b([^>]*)>/gi, (_match, attributes) =>
         `<img${optimizeImage(attributes)}>`
-      );
+      )
+      .replace(/<noscript>\s*<img\b[^>]*>\s*<\/noscript>/gi, '');
     const mainStart = html.indexOf('<main');
     if (mainStart !== -1) {
       const firstMainImage = html.indexOf('<img', mainStart);
