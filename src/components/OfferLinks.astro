@@ -1,0 +1,75 @@
+---
+import { OFFER_PARAMETER_NAMES, OFFER_URL } from '../config/offer';
+---
+
+<script is:inline define:vars={{ offerUrl: OFFER_URL, parameterNames: OFFER_PARAMETER_NAMES }}>
+  (() => {
+    const goPathPattern = /^\/go\/([^/?#]+)\/?$/i;
+
+    const getGoSlug = (link) => {
+      try {
+        const url = new URL(link.getAttribute('href'), window.location.href);
+        if (url.origin !== window.location.origin) return null;
+        return url.pathname.match(goPathPattern)?.[1] ?? null;
+      } catch {
+        return null;
+      }
+    };
+
+    const getPlacement = (link) => {
+      if (link.dataset.offerPlacement) return link.dataset.offerPlacement;
+      if (link.closest('.space-organizations-3-archive-item-button')) return 'casino-list';
+      if (link.closest('.space-organization-header-button')) return 'review-cta';
+      if (link.closest('aside, .space-sidebar')) return 'sidebar';
+      if (link.querySelector('img') || link.closest('figure')) return 'image';
+      return 'content';
+    };
+
+    const getClickData = (link) => ({
+      source: window.location.pathname,
+      offer: getGoSlug(link),
+      placement: getPlacement(link),
+    });
+
+    const buildOfferUrl = ({ source, offer, placement }) => {
+      const destination = new URL(offerUrl);
+      destination.searchParams.set(parameterNames.source, source);
+      destination.searchParams.set(parameterNames.offer, offer);
+      destination.searchParams.set(parameterNames.placement, placement);
+      return destination.href;
+    };
+
+    const prepareLink = (link) => {
+      const data = getClickData(link);
+      if (!data.offer) return false;
+
+      link.href = buildOfferUrl(data);
+      link.target = '_blank';
+      link.rel = 'nofollow sponsored noopener noreferrer';
+      link.dataset.offerLink = 'true';
+      link.dataset.offer = data.offer;
+      link.dataset.offerSource = data.source;
+      link.dataset.offerPlacement = data.placement;
+      return true;
+    };
+
+    document.querySelectorAll('a[href]').forEach(prepareLink);
+
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest?.('a[href]');
+      if (!link) return;
+
+      const isPrepared = link.dataset.offerLink === 'true';
+      if (!isPrepared && !prepareLink(link)) return;
+
+      window.dispatchEvent(new CustomEvent('offer:click', {
+        detail: {
+          destination: link.href,
+          source: link.dataset.offerSource,
+          offer: link.dataset.offer,
+          placement: link.dataset.offerPlacement,
+        },
+      }));
+    }, { capture: true });
+  })();
+</script>
